@@ -13,8 +13,8 @@ layout: default
 		{% assign students = "" | split: ',' %}
 		{% assign visitors = "" | split: ',' %}
 		
-		{% assign head = site.pages | first %}
-		{% for page in site.pages %}
+		{% assign head = site.members | first %}
+		{% for page in site.members %}
 			{% if page.type == 'member' %}
 				{% if page.job contains 'Head' %}
 					{% assign head = page %}
@@ -101,7 +101,7 @@ layout: default
                     
 					<li>Staff
 					<ul>
-                    {% for page in site.pages  %}
+                    {% for page in site.members  %}
 						{% if page.type == 'member' and page.job-type == 'staff' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
@@ -113,7 +113,7 @@ layout: default
 					
 					<li>Students
 					<ul>
-                    {% for page in site.pages  %}
+                    {% for page in site.members  %}
 						{% if page.type == 'member' and page.job-type == 'student' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
@@ -125,7 +125,7 @@ layout: default
 					
 					<li>Visitors
 					<ul>
-                    {% for page in site.pages  %}
+                    {% for page in site.members  %}
 						{% if page.type == 'member' and page.job-type == 'external' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>

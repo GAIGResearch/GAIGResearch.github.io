@@ -52,6 +52,24 @@ tag_dir: tag/
 # excerpt
 excerpt_separator: "\n\n\n\n"
 
-# paginate
+# custom collections
+collections:
+  members:
+    output: true
+  
+
+# plugins
 plugins: [jekyll-paginate]
+#plugins: [jekyll-paginate,jekyll/scholar]
+
+# paginate
 paginate: 6
+
+# scholar
+#scholar:
+#  style: ieee
+#  source: ./bib
+#  bibliography: raluca-gaina.bib
+#  sort_by: author
+#  group_by: year
+#  bibliography_template: bib

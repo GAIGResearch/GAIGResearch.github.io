@@ -1,0 +1,53 @@
+-   id: gaina2017rhanalysis
+    authors: Raluca D. Gaina and Jialin Liu and Simon M. Lucas and Diego Perez Liebana
+    title: Analysis of Vanilla Rolling Horizon Evolution Parameters in General Video Game Playing
+    journal: Springer Lecture Notes in Computer Science, Applications of Evolutionary Computation, EvoApplications
+    year: 2017
+    volume: 10199
+    pages: 418--434
+    pdf: false
+    tags:
+        - computer games
+        - evolutionary computation
+        - Monte Carlo Tree Search
+        - Rolling Horizon Evolutionary Algorithm
+        - Game AI literature
+        - General Video Game AI Framework
+        - general video game playing
+        - Artificial intelligence
+    abstract: >
+        Abstract
+-   id: gaina2017rhhybrids
+    authors: Raluca D. Gaina and Simon M. Lucas and Diego Perez Liebana
+    title: Rolling Horizon Evolution Enhancements in General Video Game Playing
+    journal: Proceedings of IEEE Conference on Computational Intelligence and Games
+    year: 2017
+    pages: 88--95
+    doi: 10.1109/CIG.2017.8080420
+    doi_short: CIG.2017.8080420
+    pdf: false
+    tags:
+        - computer games
+        - evolutionary computation
+        - Monte Carlo Tree Search
+        - Rolling Horizon Evolutionary Algorithm
+        - Game AI literature
+        - General Video Game AI Framework
+        - general video game playing
+        - Artificial intelligence
+    abstract: >
+        Abstract
+-   id: gaina2016gvgai2P
+    authors: Raluca D. Gaina and Diego Perez-Liebana and Simon M. Lucas
+    title: "General Video Game for 2 Players: Framework and Competition"
+    journal: Proc. of the IEEE Computer Science and Electronic Engineering Conference (CEEC)
+    year: 2016
+    pages: 186--191
+    pdf: false
+    tags:
+        - Game AI literature
+        - General Video Game AI Framework
+        - general video game playing
+        - Artificial intelligence
+    abstract: >
+        Abstract
