@@ -1,0 +1,188 @@
+---
+layout: default
+---
+
+<div class="page clearfix" post>
+    <div class="left">
+        <h1>{{page.title}}</h1>
+        <hr>	
+		
+		{% assign perrow = 4 %}
+		{% assign lastcol = perrow | minus: 1 %}
+		
+		<!-- Find all member pages and head of group -->
+		
+		{% assign staff = "" | split: ',' %}
+		{% assign students = "" | split: ',' %}
+		{% assign visitors = "" | split: ',' %}
+		
+		{% assign head = site.pages | first %}
+		{% for page in site.pages %}
+			{% if page.type == 'member' %}
+				{% if page.job contains 'Head' %}
+					{% assign head = page %}
+				{% else %}
+					{% if page.job-type == 'external' %}
+						{% assign visitors = visitors | push: page %}
+					{% elsif page.job-type == 'student' %}
+						{% assign students = students | push: page %}
+					{% else %}
+						{% assign staff = staff | push: page %}
+					{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		{% assign staff_sorted = staff | sort:"job" | reverse %}
+		{% assign students_sorted = students | sort:"year" %}
+		{% assign visitors_sorted = visitors | sort:"title" %}
+		
+		<!-- Display head of group -->
+		<td><center><div>
+			<div class="member"><img src="{{head.img}}" width="200"/></div><br/>
+			<a href="{{head.permalink}}">{% if head.short-name %}{{ head.short-name }}{% else %}{{ head.title }}{% endif %}</a> <a href="mailto:{{head.email}}"><i class="fas fa-envelope"></i></a><br/>
+			{{head.job}}
+		</div></center></td>
+				
+		<!-- Display staff -->
+		<h2>Staff</h2>
+		<div class="member-list">
+			<table><tr>
+				{% for member in staff_sorted %}
+					<!-- Column of this member -->
+					{% assign moduloindex = forloop.index0 | modulo: perrow %}
+					  
+					<!-- Check if we're starting a new row -->
+					{% if moduloindex == 0 %}	
+						<tr>				
+					{% endif %}
+							  
+					<!-- Display this member -->
+					<td><center><div>
+					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
+						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+						{{member.job}}
+					</div></center></td>
+					
+					<!-- Check if we're ending the row -->
+					{% if moduloindex == lastcol %}
+						</tr>					
+					{% endif %}
+					  
+				{% endfor %}
+			</table>
+		</div>
+		<hr>
+		
+		<!-- Display students -->
+		<h2>Students</h2>
+		<div class="member-list">
+			<table><tr>
+				{% for member in students_sorted %}
+					<!-- Column of this member -->
+					{% assign moduloindex = forloop.index0 | modulo: perrow %}
+					  
+					<!-- Check if we're starting a new row -->
+					{% if moduloindex == 0 %}	
+						<tr>				
+					{% endif %}
+							  
+					<!-- Display this member -->
+					<td><center><div>
+					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
+						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+						{{member.job}}
+					</div></center></td>
+					
+					<!-- Check if we're ending the row -->
+					{% if moduloindex == lastcol %}
+						</tr>					
+					{% endif %}
+					  
+				{% endfor %}
+			</table>
+		</div>
+		<hr>
+		
+		<!-- Display visitors -->		
+		<h2>Visitors</h2>
+		<div class="member-list">
+			<table><tr>
+				{% for member in visitors_sorted %}
+					<!-- Column of this member -->
+					{% assign moduloindex = forloop.index0 | modulo: perrow %}
+					  
+					<!-- Check if we're starting a new row -->
+					{% if moduloindex == 0 %}	
+						<tr>				
+					{% endif %}
+							  
+					<!-- Display this member -->
+					<td><center><div>
+					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
+						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+						{{member.job}}
+					</div></center></td>
+					
+					<!-- Check if we're ending the row -->
+					{% if moduloindex == lastcol %}
+						</tr>					
+					{% endif %}
+					  
+				{% endfor %}
+			</table>
+		</div>
+			
+    </div>
+    <button class="anchor"><i class="fas fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    GAIG Members
+                </div>
+                <ul id="content-side" class="content-ul">
+                    
+					<li>Staff
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'staff' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+					
+					<li>Students
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'student' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+					
+					<li>Visitors
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'external' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+                </ul>
+            </div>
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>

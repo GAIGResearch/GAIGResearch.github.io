@@ -1,0 +1,29 @@
+/**
+ * GAIG specific styles
+ */
+
+.member-list table {
+	width:100%; 
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border:0px;
+}
+
+.member-list table, tbody, tr, th, td {
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+
+.member-list td {
+	width: 25% !important;
+	vertical-align: top !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	padding-top: 20px !important;
+}
+
+.member {
+	border-radius: 50%; 
+	overflow: hidden; 
+	height:150px; 
+	width:150px;
+}

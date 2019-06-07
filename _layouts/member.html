@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<div class="page clearfix" post>
+    <div class="left">
+		<div style="min-height:200px">
+			<img src="{{page.img}}" style="float:right" height="200px"/>
+			<h1>{{page.title}}</h1>
+			<ul>
+			<li> {{page.job}} </li>
+			{% if page.year %} <li> Year {{page.year}} </li> {% endif %}
+			{% if page.email %} <li> <i class="fas fa-envelope"></i> Email: <a href="mailto:{{page.email}}">{{page.email}}</a> </li> {% endif %}
+			{% if page.web %} <li> <i class="fas fa-link"></i> <a href="{{page.web}}">Website</a> </li> {% endif %}
+			{% if page.twitter %} <li> <i class="fab fa-twitter"></i> Twitter: <a href="http://twitter.com/{{page.twitter}}">{{page.twitter}}</a> </li> {% endif %}
+			{% if page.linkedin %} <li> <i class="fab fa-linkedin"></i> LinkedIn: <a href="http://linkedin.com/in/{{page.linkedin}}">{{page.linkedin}}</a> </li> {% endif %}
+			{% if page.gscholar %} <li> <i class="fab fa-google"></i> GoogleScholar: <a href="https://scholar.google.co.uk/citations?user={{page.gscholar}}">{{page.title}}</a> </li> {% endif %}
+			{% if page.researchgate %} <li> <i class="fab fa-researchgate"></i> ResearchGate: <a href="https://www.researchgate.net/profile/{{page.researchgate}}">{{page.researchgate}}</a> </li> {% endif %}
+			{% if page.orcid %} <li> <i class="fas fa-leaf"></i> ORCID ID: <a href="http://orcid.org/{{page.orcid}}">{{page.orcid}}</a> </li> {% endif %}
+			{% if page.github %} <li> <i class="fab fa-github"></i> Github: <a href="http://github.com/{{page.github}}">{{page.github}}</a> </li> {% endif %}
+			
+			</ul>
+		</div>
+        <hr>
+        {{ content }}
+    </div>
+    <!--<button class="anchor"><i class="fas fa-anchor"></i></button>-->
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    GAIG Members
+                </div>
+                <ul id="content-side" class="content-ul" style="height: 600px">
+					<li>Staff
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'staff' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+					
+					<li>Students
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'student' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+					
+					<li>Visitors
+					<ul>
+                    {% for page in site.pages  %}
+						{% if page.type == 'member' and page.job-type == 'external' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					</li>
+                </ul>
+            </div>
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
