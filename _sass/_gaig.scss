@@ -2,28 +2,68 @@
  * GAIG specific styles
  */
 
-.member-list table {
-	width:100%; 
-	border-collapse: collapse;
-	border-spacing: 0px;
-	border:0px;
-}
-
-.member-list table, tbody, tr, th, td {
-	background-color:rgba(0, 0, 0, 0) !important;
-}
-
-.member-list td {
-	width: 25% !important;
-	vertical-align: top !important;
-	padding-right: 0px !important;
-	padding-left: 0px !important;
-	padding-top: 20px !important;
-}
-
 .member {
 	border-radius: 50%; 
 	overflow: hidden; 
 	height:150px; 
 	width:150px;
+}
+
+.memberimg {
+	float:right;
+	height:200px;
+}
+
+.memberwrap {
+	min-height:200px;
+}
+
+.indextitle {
+	margin-top:-15px;
+	font-size:40px;
+	font-weight:bold;
+}
+
+.indexsubtitle {
+	margin-top:-30px;
+	font-size:27px;
+}
+
+.indexlogo {
+	width: 200px;
+}
+
+.memberthumb {
+	width:200px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.member-list {
+	flex-wrap: wrap;
+	width: 100%;
+	display: flex;
+}
+
+.memberthumbflex {
+	flex-grow:1;
+}
+
+@media screen and (max-width: 770px) {
+    .memberimg {
+		float:none;
+	}
+	.indextitle {
+		font-size: 27px;
+	}
+	.indexsubtitle {
+		font-size: 18px;
+	}
+	.indexlogo {
+		width: 100px;
+	}
+	
+	.member-list td {
+		padding-top: 5px !important;
+	}
 }

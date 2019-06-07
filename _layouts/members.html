@@ -7,9 +7,6 @@ layout: default
         <h1>{{page.title}}</h1>
         <hr>	
 		
-		{% assign perrow = 4 %}
-		{% assign lastcol = perrow | minus: 1 %}
-		
 		<!-- Find all member pages and head of group -->
 		
 		{% assign staff = "" | split: ',' %}
@@ -46,90 +43,48 @@ layout: default
 		<!-- Display staff -->
 		<h2>Staff</h2>
 		<div class="member-list">
-			<table><tr>
-				{% for member in staff_sorted %}
-					<!-- Column of this member -->
-					{% assign moduloindex = forloop.index0 | modulo: perrow %}
-					  
-					<!-- Check if we're starting a new row -->
-					{% if moduloindex == 0 %}	
-						<tr>				
-					{% endif %}
-							  
+				{% for member in staff_sorted %}  
 					<!-- Display this member -->
-					<td><center><div>
+					<div class="memberthumbflex"><center>
+						<div class="memberthumb">
 					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
 						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 						{{member.job}}
-					</div></center></td>
-					
-					<!-- Check if we're ending the row -->
-					{% if moduloindex == lastcol %}
-						</tr>					
-					{% endif %}
-					  
+						</div>
+					</center></div>		  
 				{% endfor %}
-			</table>
 		</div>
 		<hr>
 		
 		<!-- Display students -->
 		<h2>Students</h2>
 		<div class="member-list">
-			<table><tr>
-				{% for member in students_sorted %}
-					<!-- Column of this member -->
-					{% assign moduloindex = forloop.index0 | modulo: perrow %}
-					  
-					<!-- Check if we're starting a new row -->
-					{% if moduloindex == 0 %}	
-						<tr>				
-					{% endif %}
-							  
+				{% for member in students_sorted %}  
 					<!-- Display this member -->
-					<td><center><div>
-					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
-						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
-						{{member.job}}
-					</div></center></td>
-					
-					<!-- Check if we're ending the row -->
-					{% if moduloindex == lastcol %}
-						</tr>					
-					{% endif %}
-					  
+					<div class="memberthumbflex"><center>
+						<div class="memberthumb">
+							<div class="member"><img src="{{member.img}}" width="200"/></div><br/>
+							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+							{{member.job}}
+						</div>
+					</center></div>	
 				{% endfor %}
-			</table>
 		</div>
 		<hr>
 		
 		<!-- Display visitors -->		
 		<h2>Visitors</h2>
 		<div class="member-list">
-			<table><tr>
 				{% for member in visitors_sorted %}
-					<!-- Column of this member -->
-					{% assign moduloindex = forloop.index0 | modulo: perrow %}
-					  
-					<!-- Check if we're starting a new row -->
-					{% if moduloindex == 0 %}	
-						<tr>				
-					{% endif %}
-							  
 					<!-- Display this member -->
-					<td><center><div>
+					<div class="memberthumbflex"><center>
+						<div class="memberthumb">
 					    <div class="member"><img src="{{member.img}}" width="200"/></div><br/>
 						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 						{{member.job}}
-					</div></center></td>
-					
-					<!-- Check if we're ending the row -->
-					{% if moduloindex == lastcol %}
-						</tr>					
-					{% endif %}
-					  
+						</div>
+					</center></div>	
 				{% endfor %}
-			</table>
 		</div>
 			
     </div>
