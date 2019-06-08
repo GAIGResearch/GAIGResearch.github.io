@@ -80,3 +80,33 @@ This option requires Python3 to be installed (base packages requried only). It i
 1. Place any bibtex (.bib) files you wish to include in the publications in the `GAIGResearch.github.io/bibfiles` directory (one file may contain multiple bibtex entries, no requirements as to naming conventions).
 2. Run `bib_processing.py` script (found in root directory). This will process all bibtex entries in the files found in the previously specified directory, format them correctly and add them to the `GAIGResearch.github.io/_data/papers.yml` file. Duplicates are checked for and ignored. Publications older than the group's start year (2017) are also ignored.
 3. Rebuild website (or push the new `papers.yml` file into the repository).
+
+## Adding new pages:
+
+To add a new page, create a new markdown (.md) or HTML (.html) file in the `GAIGResearch.github.io/page` directory. The name of the file will become its path, relative from root website (unless 'permalink' field is specified in the front matter).
+
+**The file MUST include a front matter at the top of the file. Recquried fields are: 'layout', 'title', 'permalink'.** If the field 'type: page' is specified, the page will be displayed in the header menu (top-right of website), otherwise it will only be accessible by link. Full list of supported fields:
+
+```
+---
+layout: page
+title: name of page
+permalink: relative link to page (i.e. /archive/)
+icon: fontawesome icon name (e.g. calendar)
+type: page (if this field is not defined, the page will not be included in the header).
+---
+```
+
+A range of icons are supported and used throughout the site and more are available here: https://fontawesome.com. To use such an icon in a markdown or html file, include the following code:
+
+```
+<i class="fas fa-icon"></i>
+```
+
+Replace "icon" in the above with the name of the icon, as given on https://fontawesome.com. If it is a brand icon you're using (i.e. github), the code should instead be:
+
+```
+<i class="fab fa-icon"></i>
+```
+
+With the "icon" text replaced with the name of the icon, as before.
