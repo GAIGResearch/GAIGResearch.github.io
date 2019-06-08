@@ -102,7 +102,7 @@ layout: default
 					<li>Staff
 					<ul>
                     {% for page in site.members  %}
-						{% if page.type == 'member' and page.job-type == 'staff' %}
+						{% if page.job-type == 'staff' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>
@@ -114,7 +114,7 @@ layout: default
 					<li>Students
 					<ul>
                     {% for page in site.members  %}
-						{% if page.type == 'member' and page.job-type == 'student' %}
+						{% if page.job-type == 'student' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>
@@ -126,7 +126,7 @@ layout: default
 					<li>Visitors
 					<ul>
                     {% for page in site.members  %}
-						{% if page.type == 'member' and page.job-type == 'external' %}
+						{% if page.job-type == 'external' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>

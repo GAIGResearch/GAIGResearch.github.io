@@ -36,8 +36,8 @@ layout: default
                 <ul id="content-side" class="content-ul" style="height: 600px">
 					<li>Staff
 					<ul>
-                    {% for page in site.pages  %}
-						{% if page.type == 'member' and page.job-type == 'staff' %}
+                    {% for page in site.members  %}
+						{% if page.job-type == 'staff' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>
@@ -48,8 +48,8 @@ layout: default
 					
 					<li>Students
 					<ul>
-                    {% for page in site.pages  %}
-						{% if page.type == 'member' and page.job-type == 'student' %}
+                    {% for page in site.members  %}
+						{% if page.job-type == 'student' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>
@@ -60,8 +60,8 @@ layout: default
 					
 					<li>Visitors
 					<ul>
-                    {% for page in site.pages  %}
-						{% if page.type == 'member' and page.job-type == 'external' %}
+                    {% for page in site.members  %}
+						{% if page.job-type == 'external' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>
