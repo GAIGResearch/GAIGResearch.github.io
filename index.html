@@ -41,7 +41,7 @@ layout: default
                     {{post.excerpt}}
                 </div>
                 <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-newspaper-o"></i>Read All</a>
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-newspaper-o"></i>Read More</a>
                 </div>
                 <hr>
               </li>
@@ -77,8 +77,9 @@ layout: default
                     <i class="fas fa-edit" aria-hidden="true"></i>
                     Recent Posts
                 </div>
+				
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 10  %}
+                    {% for post in site.posts offset: 0 limit: 3  %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
