@@ -88,12 +88,12 @@ layout: default
 					<p>
 						{{ author_list | replace: " and", "," }},
 						"{{ paper.title }}", 
-						in {% if paper.journal %} <em>{{ paper.journal }}</em> {% elsif paper.booktitle %} <em>{{ paper.booktitle }}</em>{% endif %},
-						{% if paper.month %}{{ paper.month }}, {% endif %} {{ paper.year }},
+						{% if paper.journal %}in  <em>{{ paper.journal }}</em>, {% elsif paper.booktitle %}in <em>{{ paper.booktitle }}</em>, {% endif %}
 						{% if paper.volume %} <strong>{{ paper.volume }}</strong>, {% elsif paper.number %}, <strong>{{ paper.number }}</strong>{% endif %}
 						{% if paper.series %} <strong>{{ paper.series }}</strong>,{% endif %}
 						{% if paper.edition %} <strong>{{ paper.edition }}</strong>,{% endif %}
-						{% if paper.pages %} pp. {{ paper.pages | replace: "--", "-" }}.{% endif %}
+						{% if paper.pages %} pp. {{ paper.pages | replace: "--", "-" }}, {% endif %}
+						{% if paper.month %}{{ paper.month }}, {% endif %} {{ paper.year }}.
 					</p>
 					
 					<!-- Print timestamp if available -->
