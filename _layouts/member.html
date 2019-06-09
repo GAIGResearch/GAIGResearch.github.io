@@ -33,8 +33,8 @@ layout: default
                 <div>
                     GAIG Members
                 </div>
-                <ul id="content-side" class="content-ul" style="height: 600px">
-					<li>Staff
+                <div id="content-side" class="content-ul" style="line-height:1.4; height: 700px;">
+					<div style="border-bottom: 3px solid #9FEE5A; padding-left: 15px">Staff</div>
 					<ul>
                     {% for page in site.members  %}
 						{% if page.job-type == 'staff' %}
@@ -44,9 +44,8 @@ layout: default
 						{% endif %}
                     {% endfor %}
 					</ul>
-					</li>
 					
-					<li>Students
+					<div style="border-bottom: 3px solid #30C99B; padding-left: 15px">Students</div>
 					<ul>
                     {% for page in site.members  %}
 						{% if page.job-type == 'student' %}
@@ -56,9 +55,8 @@ layout: default
 						{% endif %}
                     {% endfor %}
 					</ul>
-					</li>
 					
-					<li>Visitors
+					<div style="border-bottom: 3px solid #F4DC58; padding-left: 15px">Visitors</div>
 					<ul>
                     {% for page in site.members  %}
 						{% if page.job-type == 'external' %}
@@ -68,8 +66,7 @@ layout: default
 						{% endif %}
                     {% endfor %}
 					</ul>
-					</li>
-                </ul>
+				</div>
             </div>
             <!-- <div class="side">bbbb</div> -->
         </div>

@@ -7,6 +7,7 @@
 	overflow: hidden; 
 	height:150px; 
 	width:150px;
+	margin-bottom: 10px;
 }
 
 .memberimg {
@@ -34,9 +35,22 @@
 }
 
 .memberthumb {
-	width:200px;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin: 10px;
+	height:290px;
+    background: 
+    linear-gradient(to top right, #dbdfee 50%, transparent 50.5%) no-repeat top,
+    linear-gradient(0deg, #dbdfee, #dbdfee) no-repeat bottom;
+	padding-top: 3em;
+	background-size: 100% 12em, 100% calc(100% - 12em);
+}
+
+.memberthumbwrap {
+	width:230px;
+	height:290px;
+	background: 
+    linear-gradient(to bottom right, #eeeeee 50%, transparent 50.5%) no-repeat bottom,
+    linear-gradient(0deg, #eeeeee, #eeeeee) no-repeat top;
+    background-size: 100% 25em, 100% calc(100% - 25em)
 }
 
 .member-list {
@@ -63,6 +77,12 @@
 	&:hover {
 		background-color: #dbdfee;
 	}
+}
+
+.side-content-member {
+	overflow-y: auto;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 @media screen and (max-width: 770px) {
