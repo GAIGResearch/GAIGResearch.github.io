@@ -19,7 +19,7 @@ The research has creative applications, and we study the use of AI to help autom
 
 We also research games with a purpose, and serious game applications.
 
-Our group is closely associated with the EPSRC funded IGGI Centre for Doctoral Training ([http://gvgai.net](http://iggi.org.uk)), and we currently have openings for PhD students via the IGGI programme and also through other sources of funding (self-funded students are also welcome to apply).
+Our group is closely associated with the EPSRC funded IGGI Centre for Doctoral Training ([http://iggi.org.uk](http://iggi.org.uk)), and we currently have openings for PhD students via the IGGI programme and also through other sources of funding (self-funded students are also welcome to apply).
 
 
 ## Contact
