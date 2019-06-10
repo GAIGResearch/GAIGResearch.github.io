@@ -9,7 +9,7 @@ layout: default
 			<h1>{{page.title}}</h1>
 			<ul>
 			<li> {{page.job}} </li>
-			{% if page.year %} <li> Year {{page.year}} </li> {% endif %}
+			{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
 			{% if page.email %} <li> <i class="fas fa-envelope"></i> Email: <a href="mailto:{{page.email}}">{{page.email}}</a> </li> {% endif %}
 			{% if page.web %} <li> <i class="fas fa-link"></i> <a href="{{page.web}}">Website</a> </li> {% endif %}
 			{% if page.twitter %} <li> <i class="fab fa-twitter"></i> Twitter: <a href="http://twitter.com/{{page.twitter}}">{{page.twitter}}</a> </li> {% endif %}

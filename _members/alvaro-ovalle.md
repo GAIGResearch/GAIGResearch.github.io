@@ -5,7 +5,7 @@ permalink: /members/Alvaro-Ovalle
 title: Alvaro Ovalle
 img: /img/alvaro-ovalle.jpg
 job: PhD Student
-year: 1
+year: 2018
 job-type: student
 email: a.ovalle@qmul.ac.uk
 web: http://aovalle.github.io

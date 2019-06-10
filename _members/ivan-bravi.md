@@ -5,7 +5,7 @@ permalink: /members/Ivan-Bravi
 title: Ivan Bravi
 img: /img/bravi.jpg
 job: IGGI PhD Student
-year: 2
+year: 2017
 job-type: student
 email: i.bravi@qmul.ac.uk
 twitter: ivanbravi

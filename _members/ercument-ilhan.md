@@ -5,7 +5,7 @@ permalink: /members/Ercument-Ilhan
 title: Ercüment İlhan
 img: /img/ErcumentIlhan.jpg
 job: PhD Student
-year: 1
+year: 2018
 job-type: student
 email: e.ilhan@qmul.ac.uk
 ---

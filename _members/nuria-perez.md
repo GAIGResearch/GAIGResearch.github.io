@@ -5,7 +5,7 @@ permalink: /members/Nuria-Pena-Perez
 title: Nuria Peña Pérez
 img: /img/nuria_perez.png
 job: IGGI PhD Student
-year: 1
+year: 2018
 job-type: student
 email: n.penaperez@qmul.ac.uk
 ---

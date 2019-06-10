@@ -5,7 +5,7 @@ permalink: /members/Raluca-Gaina
 title: Raluca D. Gaina
 img: /img/ralucagaina.png
 job: IGGI PhD Student
-year: 3
+year: 2016
 job-type: student
 email: r.d.gaina@qmul.ac.uk
 web: http://rdgain.github.io

@@ -5,7 +5,7 @@ permalink: /members/Cristiana-Pacheco
 title: Cristiana Pacheco
 img: /img/pacheco.jpeg
 job: IGGI PhD Student
-year: 2
+year: 2017
 job-type: student
 email: c.pacheco@qmul.ac.uk
 ---

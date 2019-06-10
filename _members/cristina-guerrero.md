@@ -6,7 +6,7 @@ title: Cristina Guerrero-Romero
 short-name: Cris Guerrero-Romero
 img: /img/romero.jpeg
 job: IGGI PhD Student
-year: 3
+year: 2016
 job-type: student
 email: c.guerreroromero@qmul.ac.uk
 ---

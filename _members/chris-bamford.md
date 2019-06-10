@@ -5,7 +5,7 @@ permalink: /members/Chris-Bamford
 title: Chris Bamford
 img: /img/bam4d.png
 job: PhD Student
-year: 1
+year: 2018
 job-type: student
 email: c.d.j.bamford@qmul.ac.uk
 ---

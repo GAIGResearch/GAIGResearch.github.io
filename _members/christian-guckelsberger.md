@@ -5,7 +5,7 @@ permalink: /members/Christian-Guckelsberger
 title: Christian Guckelsberger
 img: /img/cg.jpg
 job: IGGI PhD Student
-year: 4
+year: 2014
 job-type: student
 email: christian.guckelsberger@qmul.ac.uk
 twitter: creativeEndvs
