@@ -72,14 +72,16 @@ There are 2 ways to add new publications.
 * All fields supported by bibtex are also supported in this file. 
 * If a field value contains ':', the whole field value must be included in double quotes ("...").
 * Be careful to avoid duplications and any publications older than the group's start year (2017).
+* You can also include a PDF of the paper. This should be in the path `pdf/pub/year/` and have the same name as the paper ID (e.g. `pdf/pub/2017/lucas2017bandit.pdf` would link to the lucas2017bandit bibtex entry). If there is such a pdf included on the website, set the 'pdf' field in the .yml entry as 'true' to include a link to the pdf in the citation on the website.
 
 ### Via Python3 script (recommended)
 
 This option requires Python3 to be installed (base packages requried only). It is an automated process with validity checks included.
 
 1. Place any bibtex (.bib) files you wish to include in the publications in the `GAIGResearch.github.io/bibfiles` directory (one file may contain multiple bibtex entries, no requirements as to naming conventions).
-2. Run `bib_processing.py` script (found in root directory). This will process all bibtex entries in the files found in the previously specified directory, format them correctly and add them to the `GAIGResearch.github.io/_data/papers.yml` file. Duplicates are checked for and ignored. Publications older than the group's start year (2017) are also ignored.
-3. Rebuild website (or push the new `papers.yml` file into the repository).
+2. Place any corresponding pdf files in the path `pdf/pub/year`. This should be in the path `pdf/pub/year/` and have the same name as the paper ID (e.g. `pdf/pub/2017/lucas2017bandit.pdf` would link to the lucas2017bandit bibtex entry).
+3. Run `bib_processing.py` script (found in root directory). This will process all bibtex entries in the files found in the previously specified directory, format them correctly and add them to the `GAIGResearch.github.io/_data/papers.yml` file. Duplicates are checked for and ignored. Publications older than the group's start year (2017) are also ignored. PDFs are checked for and included automatically.
+4. Rebuild website (or push the new `papers.yml` file into the repository).
 
 ## Adding new pages:
 
