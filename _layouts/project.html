@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="page clearfix" post>
+    <div class="left">
+		<div class="projectimg"><img src="{{page.img}}"/></div>
+		<h1>{{page.title}}</h1>
+		<ul>
+		{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
+		{% if page.deadline %} <li> Deadline: {{page.deadline}} </li> {% endif %}
+		{% if page.external %} <li> External collaborators: {{ page.external }} </li> {% endif %}
+		{% if page.funded %} <li> Funded by: {{page.funded}} </li> {% endif %}
+		{% if page.target %} <li> Target: {{page.target}} </li> {% endif %}
+		</ul>
+		
+        <hr>
+        {{ content }}
+		
+		<hr>
+		<h3>Members involved</h3>
+		<ul>
+		{% for member in page.members %}
+			<li><a href="/members/{{member}}"> {{member | replace: "-", " "}}</a> </li>
+		{% endfor %}
+		</ul>
+    </div>
+    <!--<button class="anchor"><i class="fas fa-anchor"></i></button>-->
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    GAIG Projects
+                </div>
+                <ul id="content-side" class="content-ul" style="line-height:1.4">
+                    {% for page in site.projects  %}
+						<li><a href="{{ page.permalink }}">{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
