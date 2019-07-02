@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="page clearfix" post>
+    <div class="left">
+        <h1>{{page.title}}</h1>
+        <hr>	
+		
+		<!-- Find all project pages -->
+		{% assign projects_sorted = site.projects | sort:"year" | reverse %}
+		
+		<!-- Display projects -->
+		<div class="member-list">
+				{% for project in projects_sorted %}  
+					<!-- Display this project -->
+					<div class="memberthumbflex"><center>
+						<div class="projectthumbwrap"><div class="projectthumb" style="border-bottom:10px solid #ccc">
+							<div class="project"><img src="{{project.img}}"/></div>
+							<div class="projectdesc">
+								<a href="{{project.permalink}}">{% if project.short-title %}{{ project.short-title }}{% else %}{{ project.title }}{% endif %}</a> </a><br/>
+								{{project.description}}
+							</div>
+						</div></div>
+					</center></div>		  
+				{% endfor %}
+		</div>
+		<hr>
+			
+    </div>
+    <button class="anchor"><i class="fas fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    GAIG Projects
+                </div>
+                <ul id="content-side" class="content-ul" style="line-height:1.4">
+                    {% for page in site.projects  %}
+						<li><a href="{{ page.permalink }}">{% if page.short-title %}{{ page.short-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>

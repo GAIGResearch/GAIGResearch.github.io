@@ -56,6 +56,8 @@ excerpt_separator: "\n\n\n\n"
 collections:
   members:
     output: true
+  projects:
+    output: true
   
 
 # plugins

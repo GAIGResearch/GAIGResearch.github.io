@@ -15,17 +15,15 @@ layout: default
 		
 		{% assign head = site.members | first %}
 		{% for page in site.members %}
-			{% if page.type == 'member' %}
-				{% if page.job contains 'Head' %}
-					{% assign head = page %}
+			{% if page.job contains 'Head' %}
+				{% assign head = page %}
+			{% else %}
+				{% if page.job-type == 'external' %}
+					{% assign visitors = visitors | push: page %}
+				{% elsif page.job-type == 'student' %}
+					{% assign students = students | push: page %}
 				{% else %}
-					{% if page.job-type == 'external' %}
-						{% assign visitors = visitors | push: page %}
-					{% elsif page.job-type == 'student' %}
-						{% assign students = students | push: page %}
-					{% else %}
-						{% assign staff = staff | push: page %}
-					{% endif %}
+					{% assign staff = staff | push: page %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
