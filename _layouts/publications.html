@@ -84,13 +84,13 @@ layout: default
 				<!-- end compute author string -->
 
 				{% if paper.type contains "article" %}
-					<div class="bibblock" style="border-left: 3px solid #30C99B">
+					<div class="bibblock" id="{{paper.id}}" style="border-left: 3px solid #30C99B">
 				{% elsif paper.type contains "book" %}
-					<div class="bibblock" style="border-left: 3px solid #97d1ea">
+					<div class="bibblock" id="{{paper.id}}" style="border-left: 3px solid #97d1ea">
 				{% elsif paper.type contains "proceedings" %}
-					<div class="bibblock" style="border-left: 3px solid #ffbe55">
+					<div class="bibblock" id="{{paper.id}}" style="border-left: 3px solid #ffbe55">
 				{% else %}
-					<div class="bibblock" style="border-left: 3px solid #000">
+					<div class="bibblock" id="{{paper.id}}" style="border-left: 3px solid #000">
 				{% endif %}
 					<!-- Display citation, IEEE style -->
 					<p>

@@ -57,6 +57,7 @@
 .projectthumbwrap {
 	width:370px;
 	height:250px;
+	margin: 10px;
 	background: 
 		linear-gradient(to bottom right, #eeeeee 50%, transparent 50.5%) no-repeat bottom,
 		linear-gradient(0deg, #eeeeee, #eeeeee) no-repeat top;
@@ -102,7 +103,7 @@
 }
 
 .projectthumb .projectdesc a {
-	color: #dbdfee;
+	color: #f0e7ce;
 }
 .projectthumb .projectdesc a:hover {
 	background-color: rgba(0,0,0,0);
