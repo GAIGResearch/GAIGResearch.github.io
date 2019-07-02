@@ -9,6 +9,8 @@ type: page
 * content
 {:toc}
 
+<div class="projectimg" style="height: 200px"><img style="height: 200px" src="/img/posts/gaig.png"/></div>
+
 The Game AI research Group at Queen Mary University of London, led by Prof Simon M. Lucas, was created on 1st August 2017.
 
 Our research involves using games as a test-bed for and an application of advanced artificial intelligence (AI) methods.  Games provide an ideal way to study all aspects of AI, but within our group we place particular emphasis on general AI: the challenge is to develop software agents that can rapidly learn to play any games to a high standard just by playing them.  Much of this study is done within the framework of General Video Game AI ([http://gvgai.net](http://gvgai.net)).

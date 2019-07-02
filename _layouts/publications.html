@@ -5,7 +5,7 @@ layout: default
 <div class="page clearfix" post>
     <div class="left">
         <h1>{{page.title}}</h1>
-        <hr>
+		<hr>
         <div style="clear:both">
 			<!-- Find names of all group members -->
 			{% assign group_members = '' | split: ' ' %}
@@ -82,8 +82,14 @@ layout: default
 					{% assign author_list = author_list | append: spl[1] %}
 				{% endfor %}
 				<!-- end compute author string -->
-			  
-				<div class="bibblock">
+
+				{% if paper.type == "article" %}
+					<div class="bibblock" style="border-left: 3px solid #30C99B">
+				{% elsif paper.type == "inproceedings" %}
+					<div class="bibblock" style="border-left: 3px solid #ffbe55">
+				{% else %}
+					<div class="bibblock" style="border-left: 3px solid #000">
+				{% endif %}
 					<!-- Display citation, IEEE style -->
 					<p>
 						{{ author_list | replace: " and", "," }},
@@ -183,6 +189,12 @@ layout: default
 						<li><a href='#{{ categ.name }}'>{{categ.name}}</a></li>
 					{% endfor %}
                 </ul>
+				<div>
+					Color legend
+				</div>
+				<div class="bibblock" style="border-left: 3px solid #30C99B; width:80%; font-weight: normal; margin-left: 10px"> Journal articles </div>
+				<div class="bibblock" style="border-left: 3px solid #ffbe55; width:80%; font-weight: normal; margin-left: 10px"> Conference papers </div>
+				<div class="bibblock" style="border-left: 3px solid #000; width:80%; font-weight: normal; margin-left: 10px"> Others </div>
             </div>
             <!-- <div class="side">bbbb</div> -->
         </div>
