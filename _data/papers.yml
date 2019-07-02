@@ -342,13 +342,3 @@
     pdf: false
     eprint: https://arxiv.org/abs/1901.00723
     abstract: This paper introduces a simple and fast variant of Planet Wars as a test-bed for statistical planning based Game AI agents, and for noisy hyper-parameter optimisation.  Planet Wars is a real-time strategy game with simple rules but complex game-play. The variant introduced in this paper is designed for speed to enable efficient experimentation, and also for a fixed action space to enable practical inter-operability with General Video Game AI agents. If we treat the game as a win-loss game (which is standard), then this leads to challenging noisy optimisation problems both in tuning agents to play the game, and in tuning game parameters. Here we focus on the problem of tuning an agent, and report results using the recently developed N-Tuple Bandit Evolutionary Algorithm and a number of other optimisers, including Sequential Model-based Algorithm Configuration (SMAC). Results indicate that the N-Tuple Bandit Evolutionary Algorithm offers competitive performance as well as insight into the effects of combinations of parameter choices.
--   id: gaina2016gvgai2p
-    type: inproceedings
-    title: "General Video Game for 2 Players: Framework and Competition"
-    author: Raluca D. Gaina and Diego Perez-Liebana and Simon M. Lucas
-    booktitle: Proceedings of the IEEE Computer Science and Electronic Engineering Conference (CEEC)
-    year: 2016
-    pages: 186--191
-    pdf: true
-    url: http://ieeexplore.ieee.org/document/7835911/
-    abstract: This paper presents a new track of the General Video Game AI competition for generic Artiﬁcial Intelligence agents, which features both competitive and cooperative real time stochastic two player games. The aim of the competition is to directly test agents against each other in more complex and dynamic environments, where there is an extra uncertainty in a game, consisting of the behaviour of the other player. The framework, server functionality and general competition setup are analysed and the results of the experiments with several sample controllers are presented. The results indicate that currently Open Loop Monte Carlo Tree Search is the overall leading algorithm on this set of games.
