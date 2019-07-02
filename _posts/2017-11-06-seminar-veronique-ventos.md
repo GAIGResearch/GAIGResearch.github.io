@@ -3,17 +3,26 @@ layout: post
 title:  "[Seminar] 'Bridge: a new challenge for AI?' by Dr. Véronique Ventos"
 categories: Seminar
 tags: [seminar, bridge, game-playing]
-excerpt: "Dr. Véronique Ventos, Associate Professor at University of Paris-Saclay (France). Time and date: 4pm, 12th December 2017. Title: Bridge: a new challenge for AI?. Room: Eng3.24, Engineering Building, QMUL Mile End campus."
+excerpt: "<ul>
+<li><b>Title:</b> Bridge: a new challenge for AI?</li>
+<li><b>Speaker:</b> Dr. Véronique Ventos</li>
+<li><b>From:</b> Associate Professor at University of Paris-Saclay (France)</li> 
+<li><b>Time and date:</b> 4pm, 12th December 2017</li>
+<li><b>Room:</b> Eng3.24, Engineering Building, QMUL Mile End campus
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Bridge: a new challenge for AI?
-* **Speaker**: Dr. Véronique Ventos, Associate Professor at University of Paris-Saclay (France)
-* **Time and date**: 4pm, 12th December 2017
-* **Room**: Eng3.24, Engineering Building, QMUL Mile End campus (building 15 on the [campus map](http://www.qmul.ac.uk/docs/about/26065.pdf))
+<ul>
+<li><b>Title:</b> Bridge: a new challenge for AI?</li>
+<li><b>Speaker:</b> Dr. Véronique Ventos</li>
+<li><b>From:</b> Associate Professor at University of Paris-Saclay (France)</li> 
+<li><b>Time and date:</b> 4pm, 12th December 2017</li>
+<li><b>Room:</b> Eng3.24, Engineering Building, QMUL Mile End campus (building 15 on the <a href="http://www.qmul.ac.uk/docs/about/26065.pdf">campus map</a>)
+</ul>
 
 As usual, refreshments will be served before and after the seminar in the hub. Please [register](https://www.eventbrite.co.uk/e/bridge-a-new-challenge-for-ai-tickets-39115905727) for helping preparing the refreshments.
 

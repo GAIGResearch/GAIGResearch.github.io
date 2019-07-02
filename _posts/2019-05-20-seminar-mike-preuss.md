@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'AlphaGo in Chemistry – Solving Real-World Problems by Means of Game AI Methods' by Mike Preuss"
 categories: Seminar
 tags: [seminar, game-playing, mcts, alpha-go, chemistry]
-excerpt: "Mike Preuss, Universiteit Leiden. Time and date: 4pm to 5pm, May 22, 2019. Title: AlphaGo in Chemistry – Solving Real-World Problems by Means of Game AI Methods. Room: 3.01, Bancroft Road Teaching Rooms, Mile End campus"
+excerpt: "<ul>
+<li><b>Title:</b> AlphaGo in Chemistry – Solving Real-World Problems by Means of Game AI Methods</li>
+<li><b>Speaker:</b> Mike Preuss, Universiteit Leiden</li> 
+<li><b>Time and date:</b> 4pm to 5pm, May 22, 2019</li>
+<li><b>Room:</b> 3.01, Bancroft Road Teaching Rooms, Mile End campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: AlphaGo in Chemistry – Solving Real-World Problems by Means of Game AI Methods
-* **Speaker**: Mike Preuss, Universiteit Leiden
-* **Time and date**: 4pm to 5pm, May 22, 2019
-* **Room**: 3.01, Bancroft Road Teaching Rooms, Mile End campus
+<ul>
+<li><b>Title:</b> AlphaGo in Chemistry – Solving Real-World Problems by Means of Game AI Methods</li>
+<li><b>Speaker:</b> Mike Preuss, Universiteit Leiden</li> 
+<li><b>Time and date:</b> 4pm to 5pm, May 22, 2019</li>
+<li><b>Room:</b> 3.01, Bancroft Road Teaching Rooms, Mile End campus</li>
+</ul>
 
 On Tuesday 22nd May 2019 the Game AI Group will host a seminar by Mike Preuss from Universiteit Leiden. All welcome (especially students), no pre-booking required. The seminar will be followed by drinks in The Hub.
 

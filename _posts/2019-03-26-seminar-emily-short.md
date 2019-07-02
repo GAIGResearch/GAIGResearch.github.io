@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Building AI Dialogue Tools for Non-Technical Authors' by Emily Short"
 categories: Seminar
 tags: [seminar, story-telling, artificial-characters]
-excerpt: "Emily Short, Spirit AI. Time and date: 4pm to 5pm, Mar 27, 2019. Title: Building AI Dialogue Tools for Non-Technical Authors. Room: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> Building AI Dialogue Tools for Non-Technical Authors</li>
+<li><b>Speaker:</b> Emily Short, Spirit AI</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Mar 27, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Building AI Dialogue Tools for Non-Technical Authors
-* **Speaker**: Emily Short, Spirit AI
-* **Time and date**: 4pm to 5pm, Mar 27, 2019
-* **Room**: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus
+<ul>
+<li><b>Title:</b> Building AI Dialogue Tools for Non-Technical Authors</li>
+<li><b>Speaker:</b> Emily Short, Spirit AI</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Mar 27, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>
 
 On Wednesday 27th March 2019 the Game AI Group will host a seminar by Emily Short from Spirit AI. All welcome (especially students), no pre-booking required.
 

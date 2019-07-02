@@ -3,17 +3,26 @@ layout: post
 title:  "[Seminar] 'Computer Hanabi: Playing Near-Optimally or Learning by Reinforcement ?' by Dr. Bruno Bouzy"
 categories: Seminar
 tags: [seminar, hanabi, game-playing, reinforcement-learning]
-excerpt: "Dr. Bruno Bouzy, Associate Professor,  Laboratory of Informatics Paris Descartes (LIPADE), Université Paris Descartes, Paris, France. Time and date: 4pm, 17th October 2017 (Tuesday). Title: Computer Hanabi: Playing Near-Optimally or Learning by Reinforcement ? Room: Eng3.24, Engineering Building, QMUL"
+excerpt: "<ul>
+<li><b>Title:</b> Computer Hanabi: Playing Near-Optimally or Learning by Reinforcement ?</li>
+<li><b>Speaker:</b> Dr. Bruno Bouzy</li> 
+<li><b>From:</b> Associate Professor,  Laboratory of Informatics Paris Descartes (LIPADE), Université Paris Descartes, Paris, France</li>
+<li><b>Time and date:</b> 4pm, 17th October 2017 (Tuesday)</li>
+<li><b>Room:</b> Eng3.24, Engineering Building, QMUL</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Computer Hanabi: Playing Near-Optimally or Learning by Reinforcement ?
-* **Speaker**: Dr. Bruno Bouzy, Associate Professor,  Laboratory of Informatics Paris Descartes (LIPADE), Université Paris Descartes, Paris, France.
-* **Time and date**: 4pm, 17th October 2017 (Tuesday)
-* **Room**: Eng3.24, Engineering Building, QMUL
+<ul>
+<li><b>Title:</b> Computer Hanabi: Playing Near-Optimally or Learning by Reinforcement ?</li>
+<li><b>Speaker:</b> Dr. Bruno Bouzy</li> 
+<li><b>From:</b> Associate Professor,  Laboratory of Informatics Paris Descartes (LIPADE), Université Paris Descartes, Paris, France</li>
+<li><b>Time and date:</b> 4pm, 17th October 2017 (Tuesday)</li>
+<li><b>Room:</b> Eng3.24, Engineering Building, QMUL</li>
+</ul>
 
 [[Presentation Slides](https://www.dropbox.com/s/8tuzq602n5x8nfd/Bouzy-QMUL-17october2017.pdf?dl=0)]
 

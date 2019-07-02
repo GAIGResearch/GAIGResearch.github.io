@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Evolutionary MCTS for Game AI and Beyond' by Hendrik Baier"
 categories: Seminar
 tags: [seminar, game-playing, evolutionary-computation, mcts]
-excerpt: "Hendrik Baier, CWI Amsterdam. Time and date: 11 am to 12 pm, Apr 30, 2019. Title: Evolutionary MCTS for Game AI and Beyond Room: BR3.02, Bancroft Road Teaching Rooms"
+excerpt: "<ul>
+<li><b>Title:</b> Evolutionary MCTS for Game AI and Beyond</li>
+<li><b>Speaker:</b> Hendrik Baier, CWI Amsterdam</li> 
+<li><b>Time and date:</b> 11 am to 12 pm, Apr 30, 2019</li>
+<li><b>Room:</b> BR3.02, Bancroft Road Teaching Rooms</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Evolutionary MCTS for Game AI and Beyond
-* **Speaker**: Hendrik Baier, CWI Amsterdam
-* **Time and date**: 11 am to 12 pm, Apr 30, 2019
-* **Room**: BR3.02, Bancroft Road Teaching Rooms
+<ul>
+<li><b>Title:</b> Evolutionary MCTS for Game AI and Beyond</li>
+<li><b>Speaker:</b> Hendrik Baier, CWI Amsterdam</li> 
+<li><b>Time and date:</b> 11 am to 12 pm, Apr 30, 2019</li>
+<li><b>Room:</b> BR3.02, Bancroft Road Teaching Rooms</li>
+</ul>
 
 On Tuesday 30th April 2019 the Game AI Group will host a seminar by Hendrik Baier from CWI Amsterdam. All welcome (especially students), no pre-booking required. 
 

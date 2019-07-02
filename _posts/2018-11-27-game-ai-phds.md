@@ -5,6 +5,7 @@ categories: PhD
 tags: [applications, phd]
 excerpt: "We have a number of fully-funded PhD studentships open to Home/EU and Overseas students in the general area of Game Artificial Intelligence. Deadline: 31 January 2018!"
 mathjax: false
+img: /img/posts/gaig.png
 ---
 
 * content

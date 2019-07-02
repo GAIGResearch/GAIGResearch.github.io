@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'TextWorld' by Marc-Alexandre Côté"
 categories: Seminar
 tags: [seminar, game-playing, text-game]
-excerpt: "Marc-Alexandre Côté, Microsoft Research Montreal. Time and date: 11am to 12pm, Mar 28, 2019. Title: TextWorld – A framework for training reinforcement learning agents on text-based games. Room: BR 4.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> TextWorld – A framework for training reinforcement learning agents on text-based games</li>
+<li><b>Speaker:</b> Marc-Alexandre Côté, Microsoft Research Montreal</li> 
+<li><b>Time and date:</b> 11am to 12pm, Mar 28, 2019</li>
+<li><b>Room:</b> BR 4.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: TextWorld – A framework for training reinforcement learning agents on text-based games
-* **Speaker**: Marc-Alexandre Côté, Microsoft Research Montreal
-* **Time and date**: 11am to 12pm, Mar 28, 2019
-* **Room**: BR 4.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus
+<ul>
+<li><b>Title:</b> TextWorld – A framework for training reinforcement learning agents on text-based games</li>
+<li><b>Speaker:</b> Marc-Alexandre Côté, Microsoft Research Montreal</li> 
+<li><b>Time and date:</b> 11am to 12pm, Mar 28, 2019</li>
+<li><b>Room:</b> BR 4.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>
 
 On Thursday 28th February 2019 the Game AI Group will host a seminar by Marc-Alexandre Côté from Microsoft Research Montreal. All welcome (especially students), no pre-booking required.
 

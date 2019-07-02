@@ -37,6 +37,10 @@ layout: default
                     {% include tag.html %}
                     </div>
                 </div>
+
+                {% if post.img %}
+                  <div class="projectimg"><img src="{{post.img}}"/></div>
+                {% endif %}
                 <div class="excerpt">
                     {{post.excerpt}}
                 </div>

@@ -3,18 +3,26 @@ layout: post
 title:  "[Seminar] 'Perfect, Immortal Machines: The Future Of Automated Game Design' by Dr Micheal Cook"
 categories: Seminar
 tags: [seminar, computational-creativity, game-design]
-excerpt: "Dr Michael Cook. Time and date: 4pm-5pm (GMT), Mar 14, 2018. Title: Perfect, Immortal Machines: The Future Of Automated Game Design. Room: Graduate Center 201, EECS, QMUL."
+excerpt: "<ul>
+<li><b>Title:</b> Perfect, Immortal Machines: The Future Of Automated Game Design</li>
+<li><b>Speaker:</b> Dr Michael Cook</li> 
+<li><b>Time and date:</b> 4pm-5pm (GMT), Mar 14, 2018</li>
+<li><b>Room:</b> Graduate Center 201, EECS, QMUL
+<li><b>Drinks/reception:</b> Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Perfect, Immortal Machines: The Future Of Automated Game Design
-* **Speaker**: Dr Michael Cook ([Games By Angelina](http://www.gamesbyangelina.org/))
-* **Time and date**: 4pm-5pm (GMT), Mar 14, 2018
-* **Room**: Graduate Center 201, EECS, QMUL
-* **Drinks/reception**: Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.
+<ul>
+<li><b>Title:</b> Perfect, Immortal Machines: The Future Of Automated Game Design</li>
+<li><b>Speaker:</b> Dr Michael Cook (<a href="http://www.gamesbyangelina.org/">Games By Angelina</a>)</li> 
+<li><b>Time and date:</b> 4pm-5pm (GMT), Mar 14, 2018</li>
+<li><b>Room:</b> Graduate Center 201, EECS, QMUL
+<li><b>Drinks/reception:</b> Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.</li>
+</ul>
 
 [[Presentation Slides](http://www.gamesbyangelina.org/talks/qmul.pdf)]
 

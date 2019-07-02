@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'The Blurring of Video Games and Gambling: Daily Fantasy, Esports, Live Streaming, and Loot Boxes' by Dr Mark R. Johnson"
 categories: Seminar
 tags: [seminar, esports]
-excerpt: "Dr Mark R Johnson. Time and date: 1pm-2pm (GMT), Nov 27, 2018. Title: The Blurring of Video Games and Gambling: Daily Fantasy, Esports, Live Streaming, and Loot Boxes. Room: BR 3.02, Bancroft Road Teaching Rooms, QMUL"
+excerpt: "<ul>
+<li><b>Title:</b> The Blurring of Video Games and Gambling: Daily Fantasy, Esports, Live Streaming, and Loot Boxes</li>
+<li><b>Speaker:</b> Dr Mark R Johnson</li> 
+<li><b>Time and date:</b> 1pm-2pm (GMT), Nov 27, 2018</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: The Blurring of Video Games and Gambling: Daily Fantasy, Esports, Live Streaming, and Loot Boxes
-* **Speaker**: Dr Mark R Johnson
-* **Time and date**: 1pm-2pm (GMT), Nov 27, 2018
-* **Room**: BR 3.02, Bancroft Road Teaching Rooms, QMUL
+<ul>
+<li><b>Title:</b> The Blurring of Video Games and Gambling: Daily Fantasy, Esports, Live Streaming, and Loot Boxes</li>
+<li><b>Speaker:</b> Dr Mark R Johnson</li> 
+<li><b>Time and date:</b> 1pm-2pm (GMT), Nov 27, 2018</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL</li>
+</ul>
 
 On Tuesday 27th November the Game AI Group will host a seminar by Mark R Johnson from the University of Alberta.
 

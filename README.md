@@ -20,6 +20,7 @@ categories: [category1, category2]
 tags: [tag1, tag2]
 excerpt: "Shorter paragraph to be displayed rather than the entire post (the rest is displayed when users click 'Read More')."
 mathjax: false
+img: path to title image
 ---
 ```
 
@@ -95,7 +96,7 @@ layout: page
 title: name of page
 permalink: relative link to page (i.e. /archive/)
 icon: fontawesome icon name (e.g. calendar)
-type: page (if this field is not defined, the page will not be included in the header).
+type: page (if this field is not defined, the page will not be included in the header, but can be linked from other pages).
 ---
 ```
 

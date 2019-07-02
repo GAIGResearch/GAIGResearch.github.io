@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Generalisation of Simulation-Based Search for Autonomous Gameplaying' by Alexander Dockhorn"
 categories: Seminar
 tags: [seminar, game-playing, learning-game-models]
-excerpt: "Alexander Dockhorn. Time and date: 4pm to 5pm, Feb 6, 2019. Title: Generalisation of Simulation-Based Search for Autonomous Gameplaying. Room: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> Generalisation of Simulation-Based Search for Autonomous Gameplaying</li>
+<li><b>Speaker:</b> Alexander Dockhorn</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Feb 6, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Generalisation of Simulation-Based Search for Autonomous Gameplaying
-* **Speaker**: [Alexander Dockhorn](http://www.is.ovgu.de/Team/Alexander+Dockhorn.html)
-* **Time and date**: 4pm to 5pm, Feb 6, 2019
-* **Room**: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus
+<ul>
+<li><b>Title:</b> Generalisation of Simulation-Based Search for Autonomous Gameplaying</li>
+<li><b>Speaker:</b> <a href="http://www.is.ovgu.de/Team/Alexander+Dockhorn.html">Alexander Dockhorn</a></li> 
+<li><b>Time and date:</b> 4pm to 5pm, Feb 6, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>
 
 On Wednesday 6th February 2019 the Game AI Group will host a seminar by Alexander Dockhorn from Otto-von-Guericke University Magdeburg. All welcome (especially students), no pre-booking required.
 

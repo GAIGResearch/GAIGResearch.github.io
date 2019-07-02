@@ -4,6 +4,7 @@ title:  "General Video Game AI tutorial at QMUL GradFest 2018"
 categories: [Event, Tutorial]
 tags: [tutorial, gvgai]
 mathjax: false
+img: /img/posts/gvgaitut.png
 ---
 
 * content

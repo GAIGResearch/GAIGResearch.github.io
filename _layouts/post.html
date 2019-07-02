@@ -30,6 +30,11 @@ layout: default
 
         </div>
         <hr>
+
+        {% if page.img %}
+          <div class="projectimg"><img src="{{page.img}}"/></div><br/>
+        {% endif %}
+
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>

@@ -3,17 +3,26 @@ layout: post
 title:  "[Seminar] 'Computational Creativity and Videogame Design' by Prof. Simon Colton"
 categories: Seminar
 tags: [seminar, computational-creativity, game-design]
-excerpt: "Prof. Simon Colton, Digital Games Technologies (Falmouth) and Computational Creativity (Goldsmiths), EPSRC Leadership Fellow Metamakers Institute, Games Academy, Falmouth University Computational Creativity Group, Goldsmiths, University of London. Time and date: 5pm-6pm (GMT), Jan 23, 2018. Title: Computational Creativity and Videogame Design. Room: BR3.02, Bancroft Road, School of Electronic Engineering and Computer Science, QMUL"
+excerpt: "<ul>
+<li><b>Title:</b> Computational Creativity and Videogame Design</li>
+<li><b>Speaker:</b> Prof. Simon Colton</li>
+<li><b>From:</b> Digital Games Technologies (Falmouth) and Computational Creativity (Goldsmiths), EPSRC Leadership Fellow Metamakers Institute, Games Academy, Falmouth University Computational Creativity Group, Goldsmiths, University of London</li> 
+<li><b>Time and date:</b> 5pm-6pm (GMT), Jan 23, 2018</li>
+<li><b>Room:</b> BR3.02, Bancroft Road, School of Electronic Engineering and Computer Science, QMUL</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Computational Creativity and Videogame Design
-* **Speaker**: Prof. Simon Colton, Digital Games Technologies (Falmouth) and Computational Creativity (Goldsmiths), EPSRC Leadership Fellow Metamakers Institute, Games Academy, Falmouth University Computational Creativity Group, Goldsmiths, University of London.
-* **Time and date**: 5pm-6pm (GMT), Jan 23, 2018
-* **Room**: BR3.02, Bancroft Road, School of Electronic Engineering and Computer Science, QMUL
+<ul>
+<li><b>Title:</b> Computational Creativity and Videogame Design</li>
+<li><b>Speaker:</b> Prof. Simon Colton</li>
+<li><b>From:</b> Digital Games Technologies (Falmouth) and Computational Creativity (Goldsmiths), EPSRC Leadership Fellow Metamakers Institute, Games Academy, Falmouth University Computational Creativity Group, Goldsmiths, University of London</li> 
+<li><b>Time and date:</b> 5pm-6pm (GMT), Jan 23, 2018</li>
+<li><b>Room:</b> BR3.02, Bancroft Road, School of Electronic Engineering and Computer Science, QMUL</li>
+</ul>
 
 ## Abstract
 

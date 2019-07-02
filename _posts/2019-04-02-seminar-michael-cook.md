@@ -3,18 +3,26 @@ layout: post
 title:  "[Seminar] 'Compressing Space, Warping Perception And Projecting Flowers Onto Cups Of Tea' by Dr Micheal Cook"
 categories: Seminar
 tags: [seminar, computational-creativity, game-design]
-excerpt: "Dr Michael Cook. Time and date: 4pm to 5pm, Apr 3, 2019. Title: Compressing Space, Warping Perception And Projecting Flowers Onto Cups Of Tea. Room: 1.04, Scape Building, Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> Compressing Space, Warping Perception And Projecting Flowers Onto Cups Of Tea</li>
+<li><b>Speaker:</b> Dr Michael Cook</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Apr 3, 2019</li>
+<li><b>Room:</b> 1.04, Scape Building, Mile End Campus</li>
+<li><b>Drinks/reception:</b> Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Compressing Space, Warping Perception And Projecting Flowers Onto Cups Of Tea
-* **Speaker**: Dr Michael Cook ([Games By Angelina](http://www.gamesbyangelina.org/))
-* **Time and date**: 4pm to 5pm, Apr 3, 2019
-* **Room**: 1.04, Scape Building, Mile End Campus (building 64 on QMUL’s [campus map](https://www.qmul.ac.uk/media/qmul/docs/about/Mile-End_map-May2018.pdf).)
-* **Drinks/reception**: Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.
+<ul>
+<li><b>Title:</b> Compressing Space, Warping Perception And Projecting Flowers Onto Cups Of Tea</li>
+<li><b>Speaker:</b> Dr Michael Cook (<a href="http://www.gamesbyangelina.org/">Games By Angelina</a>)</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Apr 3, 2019</li>
+<li><b>Room:</b> 1.04, Scape Building, Mile End Campus (building 64 on QMUL’s <a href="https://www.qmul.ac.uk/media/qmul/docs/about/Mile-End_map-May2018.pdf">campus map</a>)</li>
+<li><b>Drinks/reception:</b> Coffee/tea/cakes will be served at 3:30pm in the hub, wine and nibbles will be served in the hub after the seminar.</li>
+</ul>
 
 [[Presentation Slides](http://www.gamesbyangelina.org/talks/qmul.pdf)]
 

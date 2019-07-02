@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Solving 10×10 Hex' by Ryan Hayward"
 categories: Seminar
 tags: [seminar, game-playing, hex]
-excerpt: "Ryan Hayward, University of Alberta. Time and date: 4pm to 5pm, Feb 20, 2019. Title: Solving 10×10 Hex. Room: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> Solving 10×10 Hex</li>
+<li><b>Speaker:</b> Ryan Hayward, University of Alberta</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Feb 20, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Solving 10×10 Hex
-* **Speaker**: Ryan Hayward, University of Alberta
-* **Time and date**: 4pm to 5pm, Feb 20, 2019
-* **Room**: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus
+<ul>
+<li><b>Title:</b> Solving 10×10 Hex</li>
+<li><b>Speaker:</b> Ryan Hayward, University of Alberta</li> 
+<li><b>Time and date:</b> 4pm to 5pm, Feb 20, 2019</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>
 
 On Wednesday 20th February 2019 the Game AI Group will host a seminar by Ryan Hayward from the University of Alberta. Followed by drinks in the Informatics Hub. All welcome (especially students), no pre-booking required.
 

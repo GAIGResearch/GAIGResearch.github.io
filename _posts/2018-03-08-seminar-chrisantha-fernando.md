@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Combining Evolution and Learning' by Chrisantha Fernando (Google DeepMind)"
 categories: Seminar
 tags: [seminar, game-playing, reinforcement-learning, evolutionary-computation]
-excerpt: "Dr Chrisantha Fernando, Google DeepMind. Time and date: 4pm-5pm (GMT), Mar 20, 2018. Title: Combining Evolution and Learning. Room: David Sizer Lecture Theater, Bancroft Building, EECS, QMUL"
+excerpt: "<ul>
+<li><b>Title:</b> Combining Evolution and Learning</li>
+<li><b>Speaker:</b> Dr Chrisantha Fernando, Google DeepMind</li> 
+<li><b>Time and date:</b> 4pm-5pm (GMT), Mar 20, 2018</li>
+<li><b>Room:</b> David Sizer Lecture Theater, Bancroft Building, EECS, QMUL</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Combining Evolution and Learning
-* **Speaker**: Dr Chrisantha Fernando, Google DeepMind
-* **Time and date**: 4pm-5pm (GMT), Mar 20, 2018
-* **Room**: David Sizer Lecture Theater, Bancroft Building, EECS, QMUL
+<ul>
+<li><b>Title:</b> Combining Evolution and Learning</li>
+<li><b>Speaker:</b> Dr Chrisantha Fernando, Google DeepMind</li> 
+<li><b>Time and date:</b> 4pm-5pm (GMT), Mar 20, 2018</li>
+<li><b>Room:</b> David Sizer Lecture Theater, Bancroft Building, EECS, QMUL</li>
+</ul>
 
 The Game AI Group at Queen Mary University of London has the pleasure to receive Chrisantha Fernando for a seminar talk at 4pm on March 20th.
 [Get a ticket](https://www.eventbrite.co.uk/e/combining-evolution-and-learning-chrisantha-fernando-google-deepmind-tickets-43969995440) to secure your spot at the event!

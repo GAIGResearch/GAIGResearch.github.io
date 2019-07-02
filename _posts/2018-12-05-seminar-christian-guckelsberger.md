@@ -3,17 +3,24 @@ layout: post
 title:  "[Seminar] 'Advancing Video Game AI With Intrinsically Motivated Reinforcement Learning' by Christian Guckelsberger"
 categories: Seminar
 tags: [seminar, game-playing, reinforcement-learning, intrinsic-motivation]
-excerpt: "Christian Guckelsberger. Time and date: 2pm-3pm (GMT), Dec 6, 2018. Title: Advancing Video Game AI With Intrinsically Motivated Reinforcement Learning. Room: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus"
+excerpt: "<ul>
+<li><b>Title:</b> Advancing Video Game AI With Intrinsically Motivated Reinforcement Learning</li>
+<li><b>Speaker:</b> Christian Guckelsberger</li> 
+<li><b>Time and date:</b> 2pm-3pm (GMT), Dec 6, 2018</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>"
 mathjax: false
 ---
 
 * content
 {:toc}
 
-* **Title**: Advancing Video Game AI With Intrinsically Motivated Reinforcement Learning
-* **Speaker**: [Christian Guckelsberger](/members/christian-guckelsberger)
-* **Time and date**: 2pm-3pm (GMT), Dec 6, 2018
-* **Room**: BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus
+<ul>
+<li><b>Title:</b> Advancing Video Game AI With Intrinsically Motivated Reinforcement Learning</li>
+<li><b>Speaker:</b> <a href="/members/christian-guckelsberger">Christian Guckelsberger</a></li> 
+<li><b>Time and date:</b> 2pm-3pm (GMT), Dec 6, 2018</li>
+<li><b>Room:</b> BR 3.02, Bancroft Road Teaching Rooms, QMUL Mile End Campus</li>
+</ul>
 
 On Friday 7th December the Game AI Group will host a seminar by Christian Guckelsberger from QMUL.
 
