@@ -4,7 +4,7 @@ type: member
 permalink: /members/Olve-drageset
 title: Olve Drageset
 img: /img/drageset.jpg
-job: MSc Artificial Intelligence, Maastricht University. Research Associate Programmer, QMUL.
+job: MSc Student, Research Associate
 job-type: external
 linkedin: olvedrageset
 email: o.drageset@student.maastrichtuniversity.nl
