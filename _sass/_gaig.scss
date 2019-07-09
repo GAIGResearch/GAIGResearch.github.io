@@ -36,7 +36,7 @@
 
 .memberthumb {
 	margin: 10px;
-	height:290px;
+	min-height:290px;
     background: 
 		linear-gradient(to top right, #dbdfee 50%, transparent 50.5%) no-repeat top,
 		linear-gradient(0deg, #dbdfee, #dbdfee) no-repeat bottom;
@@ -46,7 +46,7 @@
 
 .memberthumbwrap {
 	width:230px;
-	height:290px;
+	min-height:290px;
 	background: 
 		linear-gradient(to bottom right, #eeeeee 50%, transparent 50.5%) no-repeat bottom,
 		linear-gradient(0deg, #eeeeee, #eeeeee) no-repeat top;
