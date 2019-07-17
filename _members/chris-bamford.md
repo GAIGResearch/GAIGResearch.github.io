@@ -8,6 +8,10 @@ job: PhD Student
 year: 2018
 job-type: student
 email: c.d.j.bamford@qmul.ac.uk
+linkedin: christopher-bamford-30a90912
+twitter: bam4d
+gscholar: ylcllloAAAAJ
+web: https://bam4d.github.io
 ---
 
 Chris earned a MEng in Applied Cybernetics in 2012 and since then has been working as the Lead RnD Engineer at the start-up import.io.
