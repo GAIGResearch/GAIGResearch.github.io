@@ -42,6 +42,10 @@
 		linear-gradient(0deg, #dbdfee, #dbdfee) no-repeat bottom;
 	padding-top: 2em;
 	background-size: 100% 12em, 100% calc(100% - 12em);
+		
+	&:hover {
+		background-color: #293084;
+	}
 }
 
 .memberthumbwrap {
@@ -70,6 +74,10 @@
 	padding: 0em;
 	position: relative;
 	display: inline-block;
+		
+	&:hover {
+		background-color: #000;
+	}
 }
 
 .project img {

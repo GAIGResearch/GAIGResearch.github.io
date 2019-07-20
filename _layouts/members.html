@@ -34,7 +34,7 @@ layout: default
 		<!-- Display head of group -->
 		<td><center><div>
 			<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #293084">
-			<div class="member"><img src="{{head.img}}" width="200"/></div>
+			<div class="member"><a href="{{head.permalink}}"><img src="{{head.img}}" width="200"/></a></div>
 			<a href="{{head.permalink}}">{% if head.short-name %}{{ head.short-name }}{% else %}{{ head.title }}{% endif %}</a> <a href="mailto:{{head.email}}"><i class="fas fa-envelope"></i></a><br/>
 			{{head.job}}
 			</div></div>
@@ -47,7 +47,7 @@ layout: default
 					<!-- Display this member -->
 					<div class="memberthumbflex"><center>
 						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #9FEE5A">
-					    <div class="member"><img src="{{member.img}}" width="200"/></div>
+					    <div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 						{{member.job}}
 						</div></div>
@@ -63,7 +63,7 @@ layout: default
 					<!-- Display this member -->
 					<div class="memberthumbflex"><center>
 						<div class = "memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #30C99B">
-							<div class="member"><img src="{{member.img}}" width="200"/></div>
+							<div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 							{{member.job}}
 						</div></div>
@@ -79,7 +79,7 @@ layout: default
 					<!-- Display this member -->
 					<div class="memberthumbflex"><center>
 						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #F4DC58">
-					    <div class="member"><img src="{{member.img}}" width="200"/></div>
+					    <div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 						{{member.job}}
 						</div></div>

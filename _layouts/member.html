@@ -11,7 +11,7 @@ layout: default
 			<li> {{page.job}} </li>
 			{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
 			{% if page.email %} <li> <i class="fas fa-envelope"></i> Email: <a href="mailto:{{page.email}}">{{page.email}}</a> </li> {% endif %}
-			{% if page.web %} <li> <i class="fas fa-link"></i> <a href="{{page.web}}">Website</a> </li> {% endif %}
+			{% if page.web %} <li> <i class="fas fa-link"></i> Website: <a href="{{page.web}}">{{page.web}}</a> </li> {% endif %}
 			{% if page.twitter %} <li> <i class="fab fa-twitter"></i> Twitter: <a href="http://twitter.com/{{page.twitter}}">{{page.twitter}}</a> </li> {% endif %}
 			{% if page.linkedin %} <li> <i class="fab fa-linkedin"></i> LinkedIn: <a href="http://linkedin.com/in/{{page.linkedin}}">{{page.linkedin}}</a> </li> {% endif %}
 			{% if page.gscholar %} <li> <i class="fab fa-google"></i> GoogleScholar: <a href="https://scholar.google.co.uk/citations?user={{page.gscholar}}">{{page.title}}</a> </li> {% endif %}

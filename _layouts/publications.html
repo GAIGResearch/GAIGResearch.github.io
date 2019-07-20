@@ -32,7 +32,7 @@ layout: default
 					
 					<!-- First try to find the exact spelling from the author list in the list of group members -->
 					{% for member in group_members %}
-						{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" %}
+						{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" | replace: "ú", "u" | replace: "è", "e" | replace: "ê", "e" | replace: "ë", "e" | replace: "ü", "u" | replace: "İ", "I" %}
 						{% if stripped_author == member_name %} <!-- This only works if the spelling is exactly the same as in the website -->
 							{% assign authors_in_group = authors_in_group | push: stripped_author %}
 							{% assign member_mapping = member_mapping | push: member %}
@@ -48,7 +48,7 @@ layout: default
 						{% for member in group_members %}
 							{% assign found = 0 %}  <!-- Found keeps track of how many names we've found to match this member -->
 							<!-- Ignore special characters -->
-							{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" | replace: "è", "e" | replace: "ê", "e" | replace: "ë", "e" %}  
+							{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" | replace: "ú", "u" | replace: "è", "e" | replace: "ê", "e" | replace: "ë", "e" | replace: "ü", "u" | replace: "İ", "I" %}  
 							{% for name in split_name %}
 								{% if name contains "-" %} <!-- Multiple names combined together, split again -->
 									{% assign split_name_c = name | split: "-" %}

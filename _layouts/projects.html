@@ -14,15 +14,17 @@ layout: default
 		<div class="member-list">
 				{% for project in projects_sorted %}  
 					<!-- Display this project -->
+					<a href="{{project.permalink}}">
 					<div class="memberthumbflex"><center>
 						<div class="projectthumbwrap"><div class="projectthumb" style="border-bottom:10px solid #ccc">
 							<div class="project"><img src="{{project.img}}"/></div>
 							<div class="projectdesc">
-                                <b><a href="{{project.permalink}}">{% if project.short-title %}{{ project.short-title }}{% else %}{{ project.title }}{% endif %}</a></b><br/>
+                                <b>{% if project.short-title %}{{ project.short-title }}{% else %}{{ project.title }}{% endif %}</b><br/>
 								{{project.description}}
 							</div>
 						</div></div>
-					</center></div>		  
+					</center></div>		
+					</a>					
 				{% endfor %}
 		</div>
 		<hr>
