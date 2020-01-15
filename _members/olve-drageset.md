@@ -4,8 +4,8 @@ type: member
 permalink: /members/Olve-drageset
 title: Olve Drageset
 img: /img/drageset.jpg
-job: MSc Student, Research Associate
-job-type: staff
+job: MSc Student, Maastricht University
+job-type: external
 linkedin: olvedrageset
 email: o.drageset@student.maastrichtuniversity.nl
 web: http://www.drageset.github.io/
