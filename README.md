@@ -113,4 +113,3 @@ Replace "icon" in the above with the name of the icon, as given on https://fonta
 ```
 
 With the "icon" text replaced with the name of the icon, as before.
-
