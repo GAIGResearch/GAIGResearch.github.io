@@ -1,5 +1,6 @@
 # GAIGResearch.github.io usage information
 
+
 To update website, clone repository. Any changes made which are pushed to the master branch will show up on the website. Pushing changes to master will cause the entire website to be rebuilt (errors in compiling would be sent to the email registered with this account).
 
 To test locally, install [Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll), navigate to the repository's root folder and run command 'jekyll s'. This should start a server and you can navigate to `http://localhost:4000` to see your local version. Any changes made to files in the repository will be automatically updated (and the site rebuilt) locally while the server is running, unless the _config.yml file is modified (the server should be restarted then).
