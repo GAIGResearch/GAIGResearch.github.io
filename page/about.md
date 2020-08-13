@@ -28,6 +28,7 @@ Our group is closely associated with the EPSRC funded IGGI Centre for Doctoral T
 
 * GitHub：[GAIGResearch](https://github.com/GAIGResearch)
 * Twitter: [GameAI_QMUL](https://twitter.com/GameAI_QMUL)
+* YouTube: [Game AI Group at QMUL](https://www.youtube.com/channel/UCr58-7eDABnsOc0_c13-ILQ)
 
 ## Comments
 
