@@ -2,7 +2,7 @@
 layout: post
 title:  "[Seminar] 'General Board Geometry' by Cameron Browne"
 categories: Seminar
-tags: [seminar, general game playing, board games, game design]
+tags: [seminar, general-game-playing, board-games, game-design]
 excerpt: "<ul>
 <li><b>Title:</b> General Board Geometry</li>
 <li><b>Speaker:</b> Cameron Browne (Maastricht University)</li> 

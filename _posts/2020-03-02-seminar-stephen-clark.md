@@ -2,7 +2,7 @@
 layout: post
 title:  "[Seminar] 'Grounded Language Learning in Virtual Environments' by Stephen Clark"
 categories: Seminar
-tags: [seminar, virtual environments, nlp]
+tags: [seminar, virtual-environments, nlp]
 excerpt: "<ul>
 <li><b>Title:</b> Grounded Language Learning in Virtual Environments</li>
 <li><b>Speaker:</b> Stephen Clark, Research Scientist at DeepMind, and an Honorary Professor at Queen Mary University of London</li> 

@@ -2,7 +2,7 @@
 layout: post
 title:  "[Seminar] 'Squeezer: a Juice prototyping tool for Unity' by Mads Johansen"
 categories: Seminar
-tags: [seminar, game design, unity, audio, visuals, effects, tools]
+tags: [seminar, game-design, unity, audio, visuals, effects, tools]
 excerpt: "<ul>
 <li><b>Title:</b> Squeezer: a Juice prototyping tool for Unity</li>
 <li><b>Speaker:</b> Mads Johansen (IT University of Copenhagen)</li> 

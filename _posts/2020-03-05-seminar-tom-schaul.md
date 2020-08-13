@@ -2,7 +2,7 @@
 layout: post
 title:  "[Seminar] 'Challenges of deep reinforcement learning, and the example of AlphaStar' by Tom Schaul"
 categories: Seminar
-tags: [seminar, virtual environments, nlp]
+tags: [seminar, reinforcement-learning, deep-reinforcement-learning, alpha-star, alpha-go, deepmind]
 excerpt: "<ul>
 <li><b>Title:</b> Challenges of deep reinforcement learning, and the example of AlphaStar</li>
 <li><b>Speaker:</b> Tom Schaul (Google DeepMind)</li> 
