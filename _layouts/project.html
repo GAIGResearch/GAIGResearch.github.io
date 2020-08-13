@@ -7,23 +7,24 @@ layout: default
 		<div class="projectimg"><img src="{{page.img}}"/></div>
 		<h1>{{page.title}}</h1>
 		<ul>
-		{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
-		{% if page.deadline %} <li> Deadline: {{page.deadline}} </li> {% endif %}
-		{% if page.external %} <li> External collaborators: {{ page.external }} </li> {% endif %}
-		{% if page.funded %} <li> Funded by: {{page.funded}} </li> {% endif %}
-		{% if page.target %} <li> Target: {{page.target}} </li> {% endif %}
+		{% if page.year %} <li> <b>Start year:</b> {{page.year}} </li> {% endif %}
+		{% if page.deadline %} <li> <b>Deadline:</b> {{page.deadline}} </li> {% endif %}
+		{% if page.others %} <li> <b>Other QMUL collaborators:</b> {{ page.others }} </li> {% endif %}
+		{% if page.external %} <li> <b>External collaborators:</b> {{ page.external }} </li> {% endif %}
+		{% if page.funded %} <li> <b>Funded by:</b> {{page.funded}} </li> {% endif %}
+		{% if page.target %} <li> <b>URL:</b> <a href="{{page.target}}">{{page.target}}</a> </li> {% endif %}
 		</ul>
 		
-        <hr>
-        {{ content }}
-		
-		<hr>
 		<h3>Members involved</h3>
 		<ul>
 		{% for member in page.members %}
 			<li><a href="/members/{{member}}"> {{member | replace: "-", " "}}</a> </li>
 		{% endfor %}
 		</ul>
+		
+        <hr>
+        {{ content }}
+		
     </div>
     <!--<button class="anchor"><i class="fas fa-anchor"></i></button>-->
     <div class="right">

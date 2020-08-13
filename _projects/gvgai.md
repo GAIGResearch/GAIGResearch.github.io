@@ -6,6 +6,7 @@ short-title: GVGAI
 img: /img/proj/gvgai.png
 year: 2014
 members: [Diego-Perez-Liebana, Raluca-Gaina, Simon-Lucas]
+external: "Jialin Liu, Ahmed Khalifa, Julian Togelius"
 description: The General Video Game AI Competition.
 ---
 

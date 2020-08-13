@@ -5,7 +5,6 @@ title: Rolling Horizon Evolutionary Algorithms
 short-title: RHEA
 img: /img/proj/rhea.jpg
 year: 2016
-external:
 members: [Raluca-Gaina, Simon-Lucas, Diego-Perez-Liebana]
 funded: EPSRC (IGGI CDT, partly-funded)
 description: Rolling horizon evolutionary algorithms research for general game-playing AI.
