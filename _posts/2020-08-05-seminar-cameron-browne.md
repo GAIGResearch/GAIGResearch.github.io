@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> General Board Geometry</li>
 <li><b>Speaker:</b> Cameron Browne (Maastricht University)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, August 19th, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href="https://us02web.zoom.us/j/88482579638?pwd=cnU4MVpCdFUyQjRCOEFucVRYdDFjQT09">Virtual (Zoom)</a></li>
+<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88482579638?pwd=cnU4MVpCdFUyQjRCOEFucVRYdDFjQT09'>Virtual (Zoom)</a></li>
 </ul>"
 mathjax: false
 ---
