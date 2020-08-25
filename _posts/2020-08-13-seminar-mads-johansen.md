@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> Squeezer: a Juice prototyping tool for Unity</li>
 <li><b>Speaker:</b> Mads Johansen (IT University of Copenhagen)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, August 26th, 2020 (Wednesday)</li>
-<li><b>Room:</b> Virtual (Zoom)</li>
+<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88398515866'>Virtual (Zoom)</a></li>
 </ul>"
 mathjax: false
 ---
@@ -19,7 +19,7 @@ mathjax: false
 <li><b>Title:</b> Squeezer: a Juice prototyping tool for Unity</li>
 <li><b>Speaker:</b> Mads Johansen (IT University of Copenhagen)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, August 26th, 2020 (Wednesday)</li>
-<li><b>Room:</b> Virtual (Zoom)</li>
+<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88398515866'>Virtual (Zoom)</a></li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Mads Johansen on Wednesday 26th of August 2020 at 13:00.
