@@ -10,6 +10,7 @@ excerpt: "<ul>
 <li><b>Room:</b> <a href='https://us02web.zoom.us/j/88924608310'>Virtual (Zoom)</a></li>
 </ul>"
 mathjax: false
+smallimg: foerster.jpg
 ---
 
 * content

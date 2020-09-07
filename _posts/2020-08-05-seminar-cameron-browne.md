@@ -10,6 +10,7 @@ excerpt: "<ul>
 <li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
+smallimg: browne.jpg
 ---
 
 * content

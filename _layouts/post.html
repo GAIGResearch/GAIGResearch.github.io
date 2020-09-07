@@ -34,6 +34,9 @@ layout: default
         {% if page.img %}
           <div class="projectimg"><img src="{{page.img}}"/></div><br/>
         {% endif %}
+        {% if page.smallimg %}
+          <img src="{{ site.baseurl }}/img/posts/{{page.smallimg}}" class="postimg"/><br/>
+        {% endif %}
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
