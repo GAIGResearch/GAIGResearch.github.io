@@ -42,11 +42,11 @@ mathjax: true
                 {% if post.img %}
                   <div class="projectimg"><img src="{{post.img}}"/></div>
                 {% endif %}
-				<table style="border:0px"><tr><td>
+				<table style="border:0px; width:100%"><tr><td>
                 <div class="excerpt">
                     {{post.excerpt}}
                 </div>
-				</td><td>
+				</td><td style="text-align:right;">
                 {% if post.smallimg %}
 					<img src="img/posts/{{post.smallimg}}"  class="postimg"/>
                 {% endif %}
