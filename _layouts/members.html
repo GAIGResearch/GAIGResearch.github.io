@@ -12,6 +12,7 @@ layout: default
 		{% assign staff = "" | split: ',' %}
 		{% assign students = "" | split: ',' %}
 		{% assign visitors = "" | split: ',' %}
+		{% assign alumni = "" | split: ',' %}
 		
 		{% assign head = site.members | first %}
 		{% for page in site.members %}
@@ -22,6 +23,8 @@ layout: default
 					{% assign visitors = visitors | push: page %}
 				{% elsif page.job-type == 'student' %}
 					{% assign students = students | push: page %}
+				{% elsif page.job-type == 'alumni' %}
+					{% assign alumni = alumni | push: page %}
 				{% else %}
 					{% assign staff = staff | push: page %}
 				{% endif %}
@@ -30,6 +33,7 @@ layout: default
 		{% assign staff_sorted = staff | sort:"job" | reverse %}
 		{% assign students_sorted = students | sort:"year" %}
 		{% assign visitors_sorted = visitors | sort:"title" %}
+		{% assign alumni_sorted = alumni | sort:"title" %}
 		
 		<!-- Display head of group -->
 		<td><center><div>
@@ -63,6 +67,22 @@ layout: default
 					<!-- Display this member -->
 					<div class="memberthumbflex"><center>
 						<div class = "memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #30C99B">
+							<div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
+							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+							{{member.job}}
+						</div></div>
+					</center></div>	
+				{% endfor %}
+		</div>
+		<hr>
+		
+		<!-- Display alumni -->
+		<h2>Alumni</h2>
+		<div class="member-list">
+				{% for member in alumni_sorted %}  
+					<!-- Display this member -->
+					<div class="memberthumbflex"><center>
+						<div class = "memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #ffae70">
 							<div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 							{{member.job}}
@@ -114,6 +134,17 @@ layout: default
 					<ul>
                     {% for page in site.members  %}
 						{% if page.job-type == 'student' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					
+					<div style="border-bottom: 3px solid #ffae70; padding-left: 5px">Alumni</div>
+					<ul>
+                    {% for page in site.members  %}
+						{% if page.job-type == 'alumni' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>

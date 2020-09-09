@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> Self-Play and Zero-Shot (Human-AI) Coordination (in Hanabi)</li>
 <li><b>Speaker:</b> Jakob Foerster (University of Toronto)</li> 
 <li><b>Time and date:</b> 4pm to 5pm, September 9th, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88924608310'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: foerster.jpg
@@ -20,7 +20,7 @@ smallimg: foerster.jpg
 <li><b>Title:</b> Self-Play and Zero-Shot (Human-AI) Coordination (in Hanabi)</li>
 <li><b>Speaker:</b> Jakob Foerster (University of Toronto)</li> 
 <li><b>Time and date:</b> 4pm to 5pm, September 9th, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88924608310'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Jakob Foerster on Wednesday Sept 9 at 16:00.
