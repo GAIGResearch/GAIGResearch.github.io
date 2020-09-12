@@ -5,6 +5,7 @@ permalink: /members/Alexander-Dockhorn
 title: Alexander Dockhorn
 img: /img/alexdockhorn.png
 job: Postdoctoral Research Associate
+sortkey: e
 job-type: staff
 email: a.dockhorn@qmul.ac.uk
 web: https://adockhorn.github.io/

@@ -5,6 +5,7 @@ permalink: /members/Simon-Lucas
 title: Simon M. Lucas
 img: /img/lucas.jpg
 job: Head of group
+sortkey: b
 job-type: staff
 email: simon.lucas@qmul.ac.uk
 gscholar: Jz8DDVAAAAAJ

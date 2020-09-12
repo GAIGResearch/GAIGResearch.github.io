@@ -5,6 +5,7 @@ permalink: /members/Mike-Cook
 title: Mike Cook
 img: /img/mike.jpg
 job: Postdoctoral Research Associate
+sortkey: e
 job-type: staff
 email: mike@gamesbyangelina.org
 web: http://www.gamesbyangelina.org

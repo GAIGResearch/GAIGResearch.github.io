@@ -5,6 +5,7 @@ permalink: /members/Diego-Perez-Liebana
 title: Diego Pérez-Liébana
 img: /img/perez.jpg
 job: Lecturer
+sortkey: d
 job-type: staff
 email: diego.perez@qmul.ac.uk
 web: http://www.diego-perez.net/

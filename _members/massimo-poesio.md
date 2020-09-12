@@ -5,6 +5,7 @@ permalink: /members/Massimo-Poesio
 title: Massimo Poesio
 img: /img/massimo.png
 job: Professor
+sortkey: b
 job-type: staff
 email: m.poesio@qmul.ac.uk
 gscholar: 89aa1X0AAAAJ

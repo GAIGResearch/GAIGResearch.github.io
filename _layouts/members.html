@@ -30,8 +30,8 @@ layout: default
 				{% endif %}
 			{% endif %}
 		{% endfor %}
-		{% assign staff_sorted = staff | sort:"job" | reverse %}
-		{% assign students_sorted = students | sort:"year" %}
+		{% assign staff_sorted = staff | sort:"sortkey" %}
+		{% assign students_sorted = students | sort:"year" | reverse %}
 		{% assign visitors_sorted = visitors | sort:"title" %}
 		{% assign alumni_sorted = alumni | sort:"title" %}
 		
@@ -45,7 +45,7 @@ layout: default
 		</div></center></td>
 				
 		<!-- Display staff -->
-		<h2>Staff</h2>
+		<h2>Staff [{{ staff.size }}]</h2>
 		<div class="member-list">
 				{% for member in staff_sorted %}  
 					<!-- Display this member -->
@@ -61,7 +61,7 @@ layout: default
 		<hr>
 		
 		<!-- Display students -->
-		<h2>Students</h2>
+		<h2>Students [{{ students.size }}]</h2>
 		<div class="member-list">
 				{% for member in students_sorted %}  
 					<!-- Display this member -->
@@ -69,7 +69,8 @@ layout: default
 						<div class = "memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #30C99B">
 							<div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
-							{{member.job}}
+							{{member.job}}<br/>
+							Joined {{member.year}}
 						</div></div>
 					</center></div>	
 				{% endfor %}
@@ -77,7 +78,7 @@ layout: default
 		<hr>
 		
 		<!-- Display alumni -->
-		<h2>Alumni</h2>
+		<h2>Alumni [{{ alumni.size }}]</h2>
 		<div class="member-list">
 				{% for member in alumni_sorted %}  
 					<!-- Display this member -->
@@ -93,7 +94,7 @@ layout: default
 		<hr>
 		
 		<!-- Display visitors -->		
-		<h2>External</h2>
+		<h2>External [{{ visitors.size }}]</h2>
 		<div class="member-list">
 				{% for member in visitors_sorted %}
 					<!-- Display this member -->

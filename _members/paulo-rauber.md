@@ -5,6 +5,7 @@ permalink: /members/Paulo-Rauber
 title: Paulo Rauber
 img: /img/paulo.jpg
 job: Lecturer
+sortkey: d
 job-type: staff
 email: p.rauber@qmul.ac.uk
 web: http://paulorauber.com/

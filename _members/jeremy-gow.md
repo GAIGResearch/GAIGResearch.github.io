@@ -5,6 +5,7 @@ permalink: /members/Jeremy-Gow
 title: Jeremy Gow
 img: /img/Jeremy-Gow.jpg
 job: Lecturer
+sortkey: d
 job-type: staff
 email: j.gow@qmul.ac.uk
 web: http://www.eecs.qmul.ac.uk/profiles/gowjeremy.html

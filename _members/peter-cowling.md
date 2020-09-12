@@ -5,6 +5,7 @@ permalink: /members/Peter-Cowling
 title: Peter Cowling
 img: /img/cowling.png
 job: Professor
+sortkey: b
 job-type: staff
 email: peter.cowling@qmul.ac.uk
 twitter: aiprof

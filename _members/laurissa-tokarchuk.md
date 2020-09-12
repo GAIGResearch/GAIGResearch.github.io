@@ -4,7 +4,8 @@ type: member
 permalink: /members/Laurissa-Tokarchuk
 title: Laurissa Tokarchuk
 img: /img/tokarchuk.png
-job: Lecturer
+job: Senior Lecturer
+sortkey: c
 job-type: staff
 email: laurissa.tokarchuk@qmul.ac.uk
 web: http://www.eecs.qmul.ac.uk/~laurissa/Laurissas_Pages/About_Me.html
