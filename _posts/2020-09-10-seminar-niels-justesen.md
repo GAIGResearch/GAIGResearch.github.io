@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> Towards Adaptive Game-playing Agents</li>
 <li><b>Speaker:</b> Niels Justesen (modl.ai)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, September 23rd, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88959566685'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: justesen.jpg
@@ -20,7 +20,7 @@ smallimg: justesen.jpg
 <li><b>Title:</b> Towards Adaptive Game-playing Agents</li>
 <li><b>Speaker:</b> Niels Justesen (modl.ai)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, September 23rd, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/88959566685'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Niels Jusesen on Wednesday Sept 23 at 13:00.

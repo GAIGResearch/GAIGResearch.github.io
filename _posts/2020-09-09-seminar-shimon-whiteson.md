@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> Factored Value Functions for Cooperative Multi-Agent Reinforcement Learning</li>
 <li><b>Speaker:</b> Shimon Whiteson (University of Oxford)</li> 
 <li><b>Time and date:</b> 3pm to 4pm, September 16th, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/86072752665'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: whiteson.jpg
@@ -20,7 +20,7 @@ smallimg: whiteson.jpg
 <li><b>Title:</b> Factored Value Functions for Cooperative Multi-Agent Reinforcement Learning</li>
 <li><b>Speaker:</b> Shimon Whiteson (University of Oxford)</li> 
 <li><b>Time and date:</b> 3pm to 4pm, September 16th, 2020 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/86072752665'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Shimon Whiteson on Wednesday Sept 16 at 15:00.
