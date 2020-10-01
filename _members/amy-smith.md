@@ -3,7 +3,7 @@ layout: member
 type: member
 permalink: /members/Amy-Smith
 title: Amy Elizabeth Smith
-img: /img/amy.jpg
+img: /img/amy.JPG
 job: IGGI PhD Student
 year: 2020
 job-type: student
