@@ -9,4 +9,5 @@ year: 2020
 job-type: student
 web: https://michelangeloconserva.github.io/
 twitter: Michelangelo755
+email: m.conserva@qmul.ac.uk
 ---
