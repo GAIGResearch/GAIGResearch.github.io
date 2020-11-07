@@ -5,7 +5,7 @@ title: "TAG: A Tabletop Games Framework"
 short-title: TAG
 img: /img/proj/MoBoGDL.jpg
 year: 2020
-members: [Raluca-Gaina, Martin-Balla, Diego-Perez-Liebana, Raul-Montoliu, Alexander-Dockhorn]
+members: [Raluca-Gaina, Martin-Balla, Diego-Perez-Liebana, Raul-Montoliu, Alexander-Dockhorn, James-Goodman]
 target: https://github.com/GAIGResearch/TabletopGames
 description: A flexible framework for tabletop games and AI players.
 ---
@@ -28,6 +28,7 @@ Another good resource is our continuously updated paper "DESIGN AND IMPLEMENTATI
 ## Games
 Currently implemented games:
 - [x] Tic-Tac-Toe
+- [x] Dots & Boxes
 - [x] Love Letter (Seiji Kanai 2012)
 - [x] Uno (Merle Robbins 1971)
 - [x] Virus! (Cabrero and others 2015)
