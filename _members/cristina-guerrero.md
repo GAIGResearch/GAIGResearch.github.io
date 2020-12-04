@@ -4,7 +4,7 @@ type: member
 permalink: /members/Cristina-Guerrero-Romero
 title: Cristina Guerrero-Romero
 short-name: Cris Guerrero-Romero
-img: /img/romero.jpeg
+img: /img/cristina-guerrero-romero.jpg
 job: IGGI PhD Student
 year: 2016
 job-type: student
@@ -17,7 +17,7 @@ github: kisenshi
 ---
 
 # Biography
-
+<br/>
 I am a versatile Software Engineer with 4 years of experience in web development across different areas of the tech stack. I studied Software and Computer Engineering at Universidad Autónoma de Madrid (Spain) and I am currently completing a PhD in AI and games at Queen Mary University of London (UK); during which I have done two internships at Google.
 
 I am technology agnostic and passionate about solving problems and learning. I am interested in video games, the creation of frameworks and approaches to assist in their development and testing as well as looking for new applications for AI.
