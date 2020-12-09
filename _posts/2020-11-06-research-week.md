@@ -7,13 +7,16 @@ excerpt: "PhD students and academic staff from the Game AI group showcase their 
 <b>When</b>: November 24th, 11am-12pm<br/>
 <b>Where</b>: <a href='https://www.eventbrite.co.uk/e/eecs-research-week-2020-tickets-121513719807'>Online! (register here)</a><br/>
 <b>Speakers:</b> <a href='/members/Paulo-Rauber'>Paulo Rauber</a>, <a href='/members/Raluca-Gaina'>Raluca D. Gaina</a>, <a href='/members/Simon-Colton'>Simon Colton</a>, <a href='/members/Mike-Cook'>Mike Cook</a>, <a href='/members/Diego-Perez-Liebana'>Diego Perez-Liebana</a>, <a href='/members/Alvaro-Ovalle'>Alvaro Ovalle</a>, <a href='/members/Vanessa-Volz'>Vanessa Volz</a>, <a href='/members/Ivan-Bravi'>Ivan Bravi</a>, <a href='/members/Simon-Lucas'>Simon Lucas</a><br/>
-Full details on: <a href='http://eecs.qmul.ac.uk/research/eecs-research-week-2020/'>http://eecs.qmul.ac.uk/research/eecs-research-week-2020/</a>"
+Full details on: <a href='http://eecs.qmul.ac.uk/research/eecs-research-week-2020/'>http://eecs.qmul.ac.uk/research/eecs-research-week-2020/</a><br/>
+Watch it again: <a href='https://youtu.be/X8Sqx5eIu4A'>https://youtu.be/X8Sqx5eIu4A</a>"
 mathjax: false
 img: /img/posts/game-Ai.png
 ---
 
 * content
 {:toc}
+
+Watch it again: <a href='https://youtu.be/X8Sqx5eIu4A'>https://youtu.be/X8Sqx5eIu4A</a><br/><br/>
 
 PhD students and academic staff from the Game AI group showcase their research at the QMUL EECS Research Week 2020.<br/>
 <b>When</b>: November 24th, 11am-12pm<br/>
