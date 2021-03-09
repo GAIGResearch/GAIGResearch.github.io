@@ -5,6 +5,7 @@ permalink: /members/Christian-Guckelsberger
 title: Christian Guckelsberger
 img: /img/cg.jpg
 job: IGGI Alumnus, Aalto University / Finnish Centre of AI (FCAI), Visiting Research Fellow @ QMUL
+year: 2020
 job-type: alumni
 email: christian.guckelsberger@qmul.ac.uk
 twitter: creativeEndvs

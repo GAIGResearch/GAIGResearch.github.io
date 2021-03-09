@@ -86,7 +86,8 @@ layout: default
 						<div class = "memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #ffae70">
 							<div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 							<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
-							{{member.job}}
+							{{member.job}}<br/>
+							Graduate {{member.year}}
 						</div></div>
 					</center></div>	
 				{% endfor %}
