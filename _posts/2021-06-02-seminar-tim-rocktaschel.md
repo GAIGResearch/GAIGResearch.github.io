@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> The NetHack Learning Environment</li>
 <li><b>Speaker:</b> Tim Rocktäschel (Facebook AI Research (FAIR) London)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, June 2nd, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/86192471302?pwd=Vzk0RURkaE5EL0F6U3ZCYlMyOXR4QT09'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: rocktaschel.jpg
@@ -20,7 +20,7 @@ smallimg: rocktaschel.jpg
 <li><b>Title:</b> The NetHack Learning Environment</li>
 <li><b>Speaker:</b> Tim Rocktäschel (Facebook AI Research (FAIR) London)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, June 2nd, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href="https://us02web.zoom.us/j/86192471302?pwd=Vzk0RURkaE5EL0F6U3ZCYlMyOXR4QT09">Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Tim Rocktäschel on Wednesday June 2 at 13:00.
