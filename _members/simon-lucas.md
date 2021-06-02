@@ -4,7 +4,7 @@ type: member
 permalink: /members/Simon-Lucas
 title: Simon M. Lucas
 img: /img/lucas.jpg
-job: Head of group
+job: Professor, Head of group
 sortkey: b
 job-type: staff
 email: simon.lucas@qmul.ac.uk
@@ -13,7 +13,7 @@ researchgate: Simon_Lucas
 orcid: 0000-0002-3180-7451
 ---
 
-I am a full professor and Head of School of Electronic Engineering and Computer Science at Queen Mary University of London.
+I am a full professor in the School of Electronic Engineering and Computer Science at Queen Mary University of London. Currently with Facebook Artificial Intelligence Research (FAIR).
 
 I was the Founding Editor-in-Chief of the [IEEE Transactions on Computational Intelligence and AI in Games](http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4804728), and also co-founded the [IEEE Conference on Computational Intelligence and Games](http://www.cig2017.com/), first held at the University of Essex in 2005. I am the [Vice President for Education](http://cis.ieee.org/education.html) of the IEEE Computational Intelligence Society; [here is my vision statement](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=Jz8DDVAAAAAJ&sortby=pubdate&citation_for_view=Jz8DDVAAAAAJ:2tRrZ1ZAMYUC).
 
