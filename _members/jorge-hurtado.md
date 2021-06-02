@@ -5,7 +5,7 @@ permalink: /members/Jorge-Hurtado
 title: Jorge Hurtado
 img: /img/hurtado.png
 job: Game Developer
-sortkey: f
+sortkey: g
 job-type: staff
 linkedin: jorgehurtadogrueso
 github: r4z396
