@@ -4,8 +4,9 @@ type: member
 permalink: /members/Jialin-Liu
 title: Jialin Liu
 img: /img/liu.jpeg
-job: SUSTech, China
-job-type: external
+job: SUSTech, China (Ex-PostDoc)
+job-type: past
+year: 2018
 email: liujl@sustech.edu.cn
 web: http://www.liujialin.tech/
 ---

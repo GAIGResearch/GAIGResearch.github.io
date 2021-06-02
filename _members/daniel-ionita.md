@@ -5,7 +5,8 @@ permalink: /members/Daniel-Ionita
 title: Daniel Ionita
 img: /img/ionita.jpg
 job: Software Developer
-job-type: external
+year: 2018
+job-type: past
 linkedin: daniel-ionita-02468111b
 ---
 

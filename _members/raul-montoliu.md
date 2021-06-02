@@ -4,8 +4,8 @@ type: member
 permalink: /members/Raul-Montoliu
 title: Raúl Montoliu
 img: /img/raul.png
-job: Universitat Jaume I, Spain
-job-type: external
+job: Universitat Jaume I, Spain (Visited 2019)
+job-type: partners
 email: montoliu@icc.uji.es
 web: http://www.raulmontoliu.com
 ---

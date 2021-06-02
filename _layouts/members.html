@@ -13,18 +13,24 @@ layout: default
 		{% assign students = "" | split: ',' %}
 		{% assign visitors = "" | split: ',' %}
 		{% assign alumni = "" | split: ',' %}
+		{% assign partners = "" | split: ',' %}
+		{% assign past = "" | split: ',' %}
 		
 		{% assign head = site.members | first %}
 		{% for page in site.members %}
 			{% if page.job contains 'Head' %}
 				{% assign head = page %}
 			{% else %}
-				{% if page.job-type == 'external' %}
+				{% if page.job-type == 'visiting' %}
 					{% assign visitors = visitors | push: page %}
 				{% elsif page.job-type == 'student' %}
 					{% assign students = students | push: page %}
 				{% elsif page.job-type == 'alumni' %}
 					{% assign alumni = alumni | push: page %}
+				{% elsif page.job-type == 'partners' %}
+					{% assign partners = partners | push: page %}
+				{% elsif page.job-type == 'past' %}
+					{% assign past = past | push: page %}
 				{% else %}
 					{% assign staff = staff | push: page %}
 				{% endif %}
@@ -34,6 +40,8 @@ layout: default
 		{% assign students_sorted = students | sort:"year" | reverse %}
 		{% assign visitors_sorted = visitors | sort:"title" %}
 		{% assign alumni_sorted = alumni | sort:"title" %}
+		{% assign partners_sorted = partners | sort:"title" %}
+		{% assign past_sorted = past | sort:"year" | reverse %}
 		
 		<!-- Display head of group -->
 		<td><center><div>
@@ -77,6 +85,36 @@ layout: default
 		</div>
 		<hr>
 		
+		<!-- Display currently visiting the group -->		
+		<h2>Currently Visiting [{{ visitors.size }}]</h2>
+		<div class="member-list">
+				{% for member in visitors_sorted %}
+					<!-- Display this member -->
+					<div class="memberthumbflex"><center>
+						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #ed87ac">
+					    <div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
+						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+						{{member.job}}
+						</div></div>
+					</center></div>	
+				{% endfor %}
+		</div>
+		
+		<!-- External partners -->		
+		<h2>External Partners [{{ partners.size }}]</h2>
+		<div class="member-list">
+				{% for member in partners_sorted %}
+					<!-- Display this member -->
+					<div class="memberthumbflex"><center>
+						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #b188eb">
+					    <div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
+						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
+						{{member.job}}
+						</div></div>
+					</center></div>	
+				{% endfor %}
+		</div>
+		
 		<!-- Display alumni -->
 		<h2>Alumni [{{ alumni.size }}]</h2>
 		<div class="member-list">
@@ -94,13 +132,13 @@ layout: default
 		</div>
 		<hr>
 		
-		<!-- Display visitors -->		
-		<h2>External [{{ visitors.size }}]</h2>
+		<!-- Display past visitors -->		
+		<h2>Past Visitors and Staff [{{ past.size }}]</h2>
 		<div class="member-list">
-				{% for member in visitors_sorted %}
+				{% for member in past_sorted %}
 					<!-- Display this member -->
 					<div class="memberthumbflex"><center>
-						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #F4DC58">
+						<div class="memberthumbwrap"><div class="memberthumb" style="border-bottom:10px solid #f47258">
 					    <div class="member"><a href="{{member.permalink}}"><img src="{{member.img}}" width="200"/></a></div>
 						<a href="{{member.permalink}}">{% if member.short-name %}{{ member.short-name }}{% else %}{{ member.title }}{% endif %}</a> <a href="mailto:{{member.email}}"><i class="fas fa-envelope"></i></a><br/>
 						{{member.job}}
@@ -143,6 +181,28 @@ layout: default
                     {% endfor %}
 					</ul>
 					
+					<div style="border-bottom: 3px solid #ed87ac; padding-left: 5px">Currently Visiting</div>
+					<ul>
+                    {% for page in site.members  %}
+						{% if page.job-type == 'visiting' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					
+					<div style="border-bottom: 3px solid #b188eb; padding-left: 5px">External Partners</div>
+					<ul>
+                    {% for page in site.members  %}
+						{% if page.job-type == 'partners' %}
+							<li>
+								<a href="{{ page.permalink }}"> {{ page.title }} </a>
+							</li>
+						{% endif %}
+                    {% endfor %}
+					</ul>
+					
 					<div style="border-bottom: 3px solid #ffae70; padding-left: 5px">Alumni</div>
 					<ul>
                     {% for page in site.members  %}
@@ -154,10 +214,10 @@ layout: default
                     {% endfor %}
 					</ul>
 					
-					<div style="border-bottom: 3px solid #F4DC58; padding-left: 5px">External</div>
+					<div style="border-bottom: 3px solid #f47258; padding-left: 5px">Past Visitors and Staff</div>
 					<ul>
                     {% for page in site.members  %}
-						{% if page.job-type == 'external' %}
+						{% if page.job-type == 'past' %}
 							<li>
 								<a href="{{ page.permalink }}"> {{ page.title }} </a>
 							</li>

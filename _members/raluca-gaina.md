@@ -4,9 +4,10 @@ type: member
 permalink: /members/Raluca-Gaina
 title: Raluca D. Gaina
 img: /img/ralucagaina.png
-job: Teaching Fellow, IGGI Alumna (2021)
+job: Teaching Fellow, IGGI Alumna (Graduate 2021)
 sortkey: f
 job-type: staff
+year: 2021
 email: r.d.gaina@qmul.ac.uk
 web: http://rdgain.github.io
 twitter: b_gum22

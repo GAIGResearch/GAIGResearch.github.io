@@ -5,7 +5,8 @@ permalink: /members/Elena-Petrovskaya
 title: Elena Petrovskaya
 img: /img/elenapetrovskaya.jpg
 job: IGGI PhD Student @ University of York
-job-type: external
+job-type: visiting
+year: 2021
 email: e.petrovskaya@qmul.ac.uk
 twitter: elepetrovs
 web: http://elenapetrovskaya.com

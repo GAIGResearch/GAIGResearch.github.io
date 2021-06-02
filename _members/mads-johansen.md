@@ -4,8 +4,8 @@ type: member
 permalink: /members/Mads-Johansen
 title: Mads Johansen
 img: /img/no-pic.png
-job: (Visiting) PhD Student, ITU Copenhagen
-sortkey: z
-job-type: staff
+job: PhD Student, ITU Copenhagen
+year: 2021
+job-type: visiting
 email: madj@itu.dk
 ---

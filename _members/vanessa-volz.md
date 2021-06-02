@@ -4,8 +4,9 @@ type: member
 permalink: /members/Vanessa-Volz
 title: Vanessa Volz
 img: /img/volz.jpg
-job: modl.ai, Denmark
-job-type: external
+job: modl.ai, Denmark (Ex-PostDoc)
+job-type: past
+year: 2019
 email: vanessa@modl.ai
 ---
 
