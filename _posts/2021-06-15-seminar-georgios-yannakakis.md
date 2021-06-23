@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> The AI and Games Co-Revolution</li>
 <li><b>Speaker:</b> Georgios Yannakakis (Institute of Digital Games, University of Malta / modl.ai)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, June 23rd, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/83598042228?pwd=M1hjcDBnRkFuTlI0R25xN28rM0ZYdz09'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: yannakakis.jpg
@@ -20,7 +20,7 @@ smallimg: yannakakis.jpg
 <li><b>Title:</b> The AI and Games Co-Revolution</li>
 <li><b>Speaker:</b> Georgios Yannakakis (Institute of Digital Games, University of Malta / modl.ai)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, June 23rd, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/83598042228?pwd=M1hjcDBnRkFuTlI0R25xN28rM0ZYdz09'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Georgios Yannakakis on Wednesday June 23 at 13:00.
