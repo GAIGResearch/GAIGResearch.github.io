@@ -3,7 +3,7 @@ layout: member
 type: member
 permalink: /members/Raluca-Gaina
 title: Raluca D. Gaina
-img: /img/ralucagaina.png
+img: /img/ralucagaina.jpg
 job: Lecturer, IGGI Alumna (Graduate 2021)
 sortkey: d
 job-type: staff
