@@ -8,11 +8,90 @@ layout: default
         <div class="label">
 
             <div class="label-card">
+				{% if page.pubid %}
+                <i class="fas fa-calendar"></i>{{ page.year }}
+				{% else %}
                 <i class="fas fa-calendar"></i>{{ page.date | date: "%F" }}
+				{% endif %}
             </div>
 
             <div class="label-card">
-                {% if page.author %}<i class="fas fa-user"></i>{{ page.author }}
+                {% if page.author %}
+			
+					<!-- Find names of all group members -->
+					{% assign group_members = '' | split: ' ' %}
+					{% for page in site.members %}
+						{% if page.job-type == "student" or page.job-type == "staff" %}  <!-- ignore externals -->
+							{% assign group_members = group_members | push: page %}
+						{% endif %}
+					{% endfor %}
+						
+					 
+					<!-- Compute author string, with highlighted authors from the group -->
+					{% assign author_list = page.author | split: " and " %}
+					{% assign authors_in_group = '' | split: ' ' %}
+					{% assign member_mapping = '' | split: ' ' %}
+						
+					<!-- Look for all authors in the split author list. Authors MUST be divided by ' and '. -->
+					{% for author in author_list %}
+						{% assign stripped_author = author | strip %}
+						{% assign finished = false %}
+						
+						<!-- First try to find the exact spelling from the author list in the list of group members -->
+						{% for member in group_members %}
+							{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" | replace: "ú", "u" | replace: "è", "e" | replace: "ê", "e" | replace: "ë", "e" | replace: "ü", "u" | replace: "İ", "I" %}
+							{% if stripped_author == member_name %} <!-- This only works if the spelling is exactly the same as in the website -->
+								{% assign authors_in_group = authors_in_group | push: stripped_author %}
+								{% assign member_mapping = member_mapping | push: member %}
+								{% assign finished = true %}
+								{% break %}
+							{% endif %}
+						{% endfor %}
+						
+						<!-- If unsuccessful, try to look for each name in each member and allow one name from the member's profile to be mising -->
+						{% if finished == false %} 
+							{% assign split_name = stripped_author | remove: ',' | split: ' ' %}
+							{% assign allowed_error = split_name.size %}  <!-- Increase this if a bigger difference in name should be allowed -->
+							{% for member in group_members %}
+								{% assign found = 0 %}  <!-- Found keeps track of how many names we've found to match this member -->
+								<!-- Ignore special characters -->
+								{% assign member_name = member.title | replace: "é", "e" | replace: "ñ", "n" | replace: "ú", "u" | replace: "è", "e" | replace: "ê", "e" | replace: "ë", "e" | replace: "ü", "u" | replace: "İ", "I" %}  
+								{% for name in split_name %}
+									{% if name contains "-" %} <!-- Multiple names combined together, split again -->
+										{% assign split_name_c = name | split: "-" %}
+										{% for name_c in split_name_c %}
+											{% if name_c.size > 2 and member_name contains name_c %}  <!-- size bigger than 2 to ignore initials -->
+												{% assign found = found | plus: 1 %}
+											{% endif %}
+										{% endfor %}
+									{% elsif name.size > 2 and member_name contains name %}  <!-- size bigger than 2 to ignore initials -->
+										{% assign found = found | plus: 1 %}
+									{% endif %}
+								{% endfor %}
+								
+								{% if found >= allowed_error %} <!-- This author is a member of the group -->
+									{% assign authors_in_group = authors_in_group | push: stripped_author %}
+									{% assign member_mapping = member_mapping | push: member %}
+									{% break %}
+								{% endif %}
+							{% endfor %}
+						{% endif %}
+					{% endfor %}
+						
+					<!-- Highlight all authors that are members of the group. Link to their profile page in the website -->
+					{% assign author_list = page.author %}
+					{% assign limit = authors_in_group.size | minus: 1 %}
+					{% for i in (0..limit) %}
+						{% assign author = authors_in_group[i] %}  <!-- This is how the author appears in the author list -->
+						{% assign member = member_mapping[i] %}  <!-- This is the author's member page -->
+						{% assign spl = author_list | split: author %}  <!-- Decompose string to insert html for the author -->
+						{% assign author_list = spl.first | append: "<a href='" | append: member.permalink | append: "' target='_blank'>" | append: author | append: "</a>" %}
+						{% assign author_list = author_list | append: spl[1] %}
+					{% endfor %}
+					<!-- end compute author string -->
+				
+				<i class="fas fa-user"></i>{{ author_list }}</a>
+				
                 {% endif %}
             </div>
 
@@ -35,12 +114,87 @@ layout: default
           <div class="projectimg"><img src="{{page.img}}"/></div><br/>
         {% endif %}
         {% if page.smallimg %}
-          <img src="{{ site.baseurl }}/img/posts/{{page.smallimg}}" class="postimg"/><br/>
+          <img src="/img/posts/{{page.smallimg}}" class="postimg"/><br/>
         {% endif %}
 
         <article itemscope itemtype="http://schema.org/BlogPosting">
         {{content}}
         </article>
+		
+		{% if page.pubid %}
+			{% if page.abstract %}
+				<h2>Abstract</h2>
+				
+				{{page.abstract}}
+			{% endif %}
+			
+			<hr>
+			
+			<!-- Arxiv link -->
+			{% if page.arxiv %}<i class="fas fa-file-excel"></i> Arxiv: <a href="{{ page.arxiv }}" target="_blank">{{page.arxiv}}</a>&nbsp; <br/>{% endif %}
+			<!-- Link to pdf if on website -->
+			{% if page.pdf == true %}<i class="fas fa-file-pdf"></i> Paper PDF: <a href="/pdf/{{ page.pubid }}.pdf" target="_blank">here</a>&nbsp; {% endif %}
+			
+			{% if page.puburl %}<i class="fas fa-link"></i> URL: <a href="{{ page.puburl }}" target="_blank">{{page.puburl}}</a> <br/>{% endif %}
+			<!-- GitHub repo link -->
+			{% if page.repo %}<i class="fab fa-github"></i> Github: <a href="{{ page.repo }}" target="_blank">{{page.repo}}</a>&nbsp; <br/>{% endif %}
+			{% if page.note %}<i class="fas fa-sticky-note"></i> Note: {{page.note}} <br/>{% endif %}
+				
+			{% if page.issn %}ISSN: {{ page.issn }}<br/>{% endif %}
+			{% if page.isbn %}ISBN: {{ page.isbn }} <br/>{% endif %}
+			{% if page.doi %}DOI:<a href="http://dx.doi.org/{{ page.doi }}" target="_blank">{{page.doi}}</a><br/>{% endif %}
+			
+			<!-- Link to presentation pdf if on website -->
+			{% if page.talkpdf == true %}<i class="fas fa-file-video"></i> Presentation PDF: <a href="/pdf/{{ page.pubid }}-talk.pdf" target="_blank">here</a>&nbsp; <br/>{% endif %}
+			<!-- Link to presentation ppt if on website -->
+			{% if page.talkppt == true %}<i class="fas fa-file-powerpoint"></i> Presentation PPT: <a href="/ppt/{{ page.pubid }}.pptx" target="_blank">here</a>&nbsp; <br/>{% endif %}
+			<!-- Youtube link -->
+			{% if page.youtube %}<i class="fab fa-youtube"></i> YouTube: <a href="{{ page.youtube }}" target="_blank">{{page.youtube}}</a>&nbsp; <br/>{% endif %}
+			
+			<h2><i class="fas fa-quote-right"></i> Cite this work</h2>
+			
+			{% if page.biburl %}Biburl: <a href="{{ page.biburl }}">{{page.biburl}}</i></a> 
+			{% else %}
+			
+			<code style="display:block">
+			@{{page.type}}&#123;{{page.pubid}},<br/>
+			<span style="margin:10px;">author= &#123;{{page.author}}&#125;,</span><br/>
+			<span style="margin:10px;">title= &#123;&#123;{{page.title}}&#125;&#125;,</span><br/>
+			<span style="margin:10px;">year= &#123;{{page.year}}&#125;,</span><br/>
+			{% if page.journal %} <span style="margin:10px;">journal= &#123;&#123;{{page.journal}}&#125;&#125;,</span><br/> {% endif %}
+			{% if page.booktitle %} <span style="margin:10px;">booktitle= &#123;&#123;{{page.booktitle}}&#125;&#125;,</span><br/> {% endif %}
+			{% if page.month %} <span style="margin:10px;">month= &#123;{{page.month}}&#125;,</span><br/> {% endif %}
+			{% if page.volume %} <span style="margin:10px;">volume= &#123;{{page.volume}}&#125;,</span><br/> {% endif %}
+			{% if page.number %} <span style="margin:10px;">number= &#123;{{page.number}}&#125;,</span><br/> {% endif %}
+			{% if page.series %} <span style="margin:10px;">series= &#123;{{page.series}}&#125;,</span><br/> {% endif %}
+			{% if page.edition %} <span style="margin:10px;">edition= &#123;{{page.edition}}&#125;,</span><br/> {% endif %}
+			{% if page.pages %} <span style="margin:10px;">pages= &#123;{{page.pages}}&#125;,</span><br/> {% endif %}
+			{% if page.editor %} <span style="margin:10px;">editor= &#123;{{page.editor}}&#125;,</span><br/> {% endif %}
+			{% if page.publisher %} <span style="margin:10px;">publisher= &#123;{{page.publisher}}&#125;,</span><br/> {% endif %}
+			{% if page.address %} <span style="margin:10px;">address= &#123;{{page.address}}&#125;,</span><br/> {% endif %}
+			{% if page.howpublished %} <span style="margin:10px;">howpublished= &#123;{{page.howpublished}}&#125;,</span><br/> {% endif %}
+			{% if page.chapter %} <span style="margin:10px;">chapter= &#123;{{page.chapter}}&#125;,</span><br/> {% endif %}
+			{% if page.organization %} <span style="margin:10px;">organization= &#123;{{page.organization}}&#125;,</span><br/> {% endif %}
+			{% if page.school %} <span style="margin:10px;">school= &#123;{{page.school}}&#125;,</span><br/> {% endif %}
+			{% if page.institution %} <span style="margin:10px;">institution= &#123;{{page.institution}}&#125;,</span><br/> {% endif %}
+			{% if page.timestamp %} <span style="margin:10px;">timestamp= &#123;{{page.timestamp}}&#125;,</span><br/> {% endif %}
+			{% if page.eprint %} <span style="margin:10px;">eprint= &#123;{{page.eprint}}&#125;,</span><br/> {% endif %}
+			{% if page.archivePrefix %} <span style="margin:10px;">archivePrefix= &#123;{{page.archivePrefix}}&#125;,</span><br/> {% endif %}
+			{% if page.keywords %} <span style="margin:10px;">keywords= &#123;{{page.keywords}}&#125;,</span><br/> {% endif %}
+			{% if page.bibsource %} <span style="margin:10px;">bibsource= &#123;{{page.bibsource}}&#125;,</span><br/> {% endif %}
+			{% if page.biburl %} <span style="margin:10px;">biburl= &#123;{{page.biburl}}&#125;,</span><br/> {% endif %}
+			{% if page.puburl %} <span style="margin:10px;">url= &#123;{{page.puburl}}&#125;,</span><br/> {% endif %}
+			{% if page.doi %} <span style="margin:10px;">doi= &#123;{{page.doi}}&#125;,</span><br/> {% endif %}
+			{% if page.isbn %} <span style="margin:10px;">isbn= &#123;{{page.isbn}}&#125;,</span><br/> {% endif %}
+			{% if page.issn %} <span style="margin:10px;">issn= &#123;{{page.issn}}&#125;,</span><br/> {% endif %}
+			{% if page.note %} <span style="margin:10px;">note= &#123;{{page.note}}&#125;,</span><br/> {% endif %}
+			{% if page.abstract %} <span style="margin:10px;">abstract= &#123;{{page.abstract}}&#125;,</span><br/> {% endif %}
+			}
+			</code>
+			
+			{% endif %}
+		{% endif %}
+		
         <hr>
 
         {% assign hasSimilar = '' %}

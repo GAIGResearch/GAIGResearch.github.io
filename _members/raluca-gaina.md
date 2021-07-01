@@ -7,7 +7,7 @@ img: /img/ralucagaina.jpg
 job: Lecturer, IGGI Alumna (Graduate 2021)
 sortkey: d
 job-type: staff
-year: 2021
+year: 2016
 email: r.d.gaina@qmul.ac.uk
 web: http://rdgain.github.io
 twitter: b_gum22
@@ -20,7 +20,7 @@ github: rdgain
 
 # About
 
-**Raluca D. Gaina** is currently a Lecturer in Game AI at Queen Mary University of London. She got her Ph.D. in Intelligent Games and Games Intelligence from Queen Mary University of London in May 2021, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex in 2015 and 2016, respectively. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition ([MARLO](http://aka.ms/marlo)). She was the track organiser of the Two-Player General Video Game AI Competition ([GVGAI](http://gvgai.net/)) 2016-2019 and is the Vice-Chair for Conferences of the IEEE CIS Games Technical Committee in 2020. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
+**Raluca D. Gaina** is a Lecturer in Game AI at Queen Mary University of London from June 2021. She got her Ph.D. in Intelligent Games and Games Intelligence from Queen Mary University of London in May 2021, in the area of rolling horizon evolution in general video game playing, after completing a B.Sc. and M.Sc. in Computer Games at the University of Essex in 2015 and 2016, respectively. In 2018, she did a 3 month internship at Microsoft Research Cambridge, working on the Multi-Agent Reinforcement Learning in Malmo Competition ([MARLO](http://aka.ms/marlo)). She was the track organiser of the Two-Player General Video Game AI Competition ([GVGAI](http://gvgai.net/)) 2016-2019 and is the Vice-Chair for Conferences of the IEEE CIS Games Technical Committee in 2020. Her research interests include general video game playing AI, reinforcement learning and evolutionary computation algorithms. 
  
 Read an interview about my PhD experience [here](https://discoverphds.com/advice/interviews/raluca-gaina/).
 

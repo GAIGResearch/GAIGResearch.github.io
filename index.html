@@ -48,7 +48,7 @@ mathjax: true
                 </div>
 				</td><td style="text-align:right;">
                 {% if post.smallimg %}
-					<img src="img/posts/{{post.smallimg}}"  class="postimg"/>
+					<img src="/img/posts/{{post.smallimg}}"  class="postimg"/>
                 {% endif %}
 				</td></tr></table>
                 <div class="read-all">
@@ -89,8 +89,16 @@ mathjax: true
                 </div>
 				
                 <ul class="content-ul" recent>
-                    {% for post in site.posts offset: 0 limit: 3  %}
+					{% assign count = 0 %}
+                    {% for post in site.posts  %}
+						{% if post.paper %}
+							{% continue %}
+						{% endif %}
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+						{% assign count = count | plus: 1 %}
+						{% if count == 3 %}
+							{% break %}
+						{% endif %}
                     {% endfor %}
                 </ul>
             </div>
@@ -113,6 +121,21 @@ mathjax: true
                     </li>
                     {% endfor %}
                 </ul>
+            </div>
+			<div class="side ">
+                <div>
+                    <i class="fas fa-calendar-alt"></i>
+                    Events
+                </div>
+                <iframe src="https://calendar.google.com/calendar/embed?height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MXI5bjNwaTAwaWIydm5tM2RlZ3Nzb3Z2czBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%236733DD&amp;showTitle=0&amp;mode=AGENDA&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1&amp;showNav=0&amp;showTabs=0" style="border-width:0" width="250" height="200" frameborder="0" scrolling="no"></iframe>
+				<p class="content-ul"><i class="fa fa-chevron-right"></i><a href="{{ site.url }}/calendar">View Calendar</a></p>
+            </div>
+			<div class="side ">
+                <div>
+                    <i class="fab fa-twitter"></i>
+                    Twitter
+                </div>
+                <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/GameAI_QMUL?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="side">
                 <div>
@@ -156,21 +179,6 @@ mathjax: true
                       <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
                     {% endfor %}
                 </div>
-            </div>
-			<div class="side ">
-                <div>
-                    <i class="fas fa-calendar-alt"></i>
-                    Events
-                </div>
-                <iframe src="https://calendar.google.com/calendar/embed?height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MXI5bjNwaTAwaWIydm5tM2RlZ3Nzb3Z2czBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%236733DD&amp;showTitle=0&amp;mode=AGENDA&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1&amp;showNav=0&amp;showTabs=0" style="border-width:0" width="250" height="200" frameborder="0" scrolling="no"></iframe>
-				<p class="content-ul"><i class="fa fa-chevron-right"></i><a href="{{ site.url }}/calendar">View Calendar</a></p>
-            </div>
-			<div class="side ">
-                <div>
-                    <i class="fab fa-twitter"></i>
-                    Twitter
-                </div>
-                <a class="twitter-timeline" data-width="300" data-height="400" href="https://twitter.com/GameAI_QMUL?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
 			
 			

@@ -64,26 +64,97 @@ The rest of the file can contain any information the member wishes displayed on 
 
 ## Adding new publications:
 
-Publications are displayed in the `/publications` tab on the website and automatically compiled from the `GAIGResearch.github.io/_data/papers.yml` file to generate the list grouped by year.
+Publications are displayed in the `/publications` tab on the website. The list is generated from files in the `_posts/papers` folder, where each paper has its own file with paper meta-data.
 
-There are 2 ways to add new publications. 
+To add a new publication, **create** a new file in the `_posts/papers` folder.
 
-### Directly (not recommended)
+### Features
+- Publications require only front matter base information to be added in a new file.
+- Publications have an associated post page automatically created, which can be left empty, or can be accompanied by a blog post.
+- Tagged publications are sorted by tags the `/tag` page on the website. We recommend including the conference abbreviation as a tag.
+- Publications are listed on the main publications page, sorted by year, and tagged by venue.
+- Publications are also automatically added to GAIG member's profile if an author.
+- Authors on a publications who are GAIG members have their profile automatically linked from the author list.
 
-* Modify the file `GAIGResearch.github.io/_data/papers.yml` directly to add a new publication following the format in file. 
-* All fields supported by bibtex are also supported in this file. 
-* If a field value contains ':', the whole field value must be included in double quotes ("...").
-* Be careful to avoid duplications and any publications older than the group's start year (2017).
-* You can also include a PDF of the paper. This should be in the path `pdf/pub/year/` and have the same name as the paper ID (e.g. `pdf/pub/2017/lucas2017bandit.pdf` would link to the lucas2017bandit bibtex entry). If there is such a pdf included on the website, set the 'pdf' field in the .yml entry as 'true' to include a link to the pdf in the citation on the website.
+### File name
 
-### Via Python3 script (recommended)
+The name of the file follows typical post guidelines, requiring the format `YYYY-MM-DD-paperID.md`. The date is used to sort papers - generally, only the year is relevant.
 
-This option requires Python3 to be installed (base packages requried only). It is an automated process with validity checks included.
+The **paperID** is recommended to be the Bibtex paper ID, usually the last name of the first author, the year of publication and the first word in the paper title, e.g. gaina2020rolling. The paperID format is not checked at any point and can be different, this is just guideline.
 
-1. Place any bibtex (.bib) files you wish to include in the publications in the `GAIGResearch.github.io/bibfiles` directory (one file may contain multiple bibtex entries, no requirements as to naming conventions).
-2. Place any corresponding pdf files in the path `pdf/pub/year`. This should be in the path `pdf/pub/year/` and have the same name as the paper ID (e.g. `pdf/pub/2017/lucas2017bandit.pdf` would link to the lucas2017bandit bibtex entry).
-3. Run `bib_processing.py` script (found in root directory). This will process all bibtex entries in the files found in the previously specified directory, format them correctly and add them to the `GAIGResearch.github.io/_data/papers.yml` file. Duplicates are checked for and ignored. Publications older than the group's start year (2017) are also ignored. PDFs are checked for and included automatically.
-4. Rebuild website (or push the new `papers.yml` file into the repository).
+### File contents
+
+**The file MUST include a front matter at the top of the file.** Required fields are the following (you can simply copy this base template into a new file to ensure you're respecting the correct format):
+
+```aidl
+---
+layout: post
+categories: Publications
+paper: true
+hidden: true
+
+pubid: {your paperID}
+type: {your publication type, the tag after @ in Bibtex citations, e.g. article, inproceedings, book etc.}
+title: {your paper title}
+author: {your paper authors, names separated by keyword 'and' with spaces on each side}
+year: {year of publication}
+---
+
+* content
+{:toc}
+```
+
+**IMPORTANT:** authors should be separated by keyword ' and ', with the spaces on either side. This is the typical format given by Bibtex citations. If not respected, the authors which are members of GAIG will not have their profiles automatically linked in the author list. If the name deviates much from that used on the website, this linking will also fail.
+
+After this base information, anything else can be added in the file in markdown format, which will be displayed on the publication's post page (e.g. blog post, custom links, images, videos, tables, results etc.).
+
+**Bibtex fields supported:** All fields included in Bibtex citations are supported. You can simply copy-paste a Bibtex citation into the front matter, then replace '={' with ': ' (the space after is important), and remove '},' at the end of each field, as well as other braces included. **IMPORTANT:** If your text in a field includes a colon symbol (':'), then everything should be surrounded by double quotes. If your text in the double quotes includes any other double quotes, replace those inside with single quotes to avoid compilation errors.
+- **url**: use field name **puburl** instead, as url is already a keyword in Jekyll and it causes errors. If included, link is added on the publication's post page.
+- **keywords**: we recommend duplicating the list of keywords in the tags field (with dashes, '-', replacing spaces between words)
+- **journal**, **booktitle**, **volume**, **number**, **series**, **edition**, **chapter**
+- **month**, **timestamp**
+- **pages**
+- **editor**, **publisher**, **address**, **howpublished**
+- **organization**, **school**, **institution**
+- **eprint**, **archivePrefix**
+- **bibsource**, **biburl**, **doi**, **issn**, **isbn**, **note**, **abstract**
+
+
+
+**Other fields supported:**
+- **venue**: if specified, this adds a tag before the paper year and title in the display. Currently supported venue options (not case sensitive): 
+    - IEEE COG 
+    - EVOSTAR
+    - IEEE TOG
+	- IEEE TEVC
+    - IEEE CEC
+    - FDG
+    - AAMAS
+    - DIGRA
+    - CEEC
+    - ICCC
+    - AIIDE
+    - IWAI
+    - GECCO
+	- SSCI
+    - EXAG
+    - STRATEGY AIIDE
+    - AAAI
+    - CIML
+    - GAMES AAAI
+    - PHD
+    - BOOK
+- **img**: if specified, adds a banner-type crop of the image linked at the top (path relative to root folder required)
+- **smallimg**: if specified, adds a small portrait-size crop of the image linked in the top-right (path relative to /img/posts/ required)
+- **tags**: if specified, the paper will be tagged and matched to other papers with the same tags (found in `/tag` page on the website, or by clicking any tags)
+- **arxiv**: if specified, link is added in the paper's post page.
+- **pdf**: if specified and set to true, PDF existing on the website is linked automatically on paper's post page. PDF must be in folder `/pdf/` and have the same name as the paperID.
+- **repo**: if specified, links on paper's post page to the Github repository containing code associated with the publication.
+- **note**: if specified, note is displayed on paper's post page.PDF existing on the website is linked automatically on paper's post page. PDF must be in folder `/pdf/` and have the same name as the paperID.
+- **issn, isbn, doi**: if specified, details added on paper's post page.
+- **talkpdf**: if specified and set to true, PDF of presentation associated with publication, which exists on the website, is linked automatically on paper's post page. PDF must be in folder `/pdf/` and have the name format `paperID-talk.pdf`.
+- **talkppt**: if specified and set to true, PPTX of presentation associated with publication, which exists on the website, is linked automatically on paper's post page. PPTX must be in folder `/ppt/` and have the name format `paperID.pptx`.
+- **youtube**: if specified, link is added in the paper's post page.
 
 ## Adding new pages:
 

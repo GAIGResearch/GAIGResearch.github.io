@@ -21,13 +21,14 @@ icon: tags
           <h2 id="{{ tag }}">{{ tag }}</h2>
           {% for post in site.tags[tag] %}
             <li>
+				{% if post.pubid %}
+				[Publication] 
+				{% else %}
                 <time>
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
+				{% endif %}
                 <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-                {% include category.html %}
-                {% include tag.html %}
             </li>
           {% endfor %}
         {% endfor %}

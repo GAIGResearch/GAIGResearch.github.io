@@ -1,41 +1,22 @@
 ---
 layout: default
+title: Publications
+permalink: /publications/
+icon: archive
+type: page
 ---
 
-<div class="page clearfix" post>
+
+<div class="page clearfix">
+				
 	{% assign start_year = 2017 %}
-	{% if page.year and page.year > start_year %}
-		{% assign start_year = page.year %}
-	{% endif %}
 	{% assign current_year = 'now' | date: "%Y" %}
 	
     <div class="left">
-		<div class="memberwrap">
-			<img src="{{page.img}}" class="memberimg"/>
-			<h1>{{page.title}}</h1>
-			<ul>
-			<li> {{page.job}} </li>
-			{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
-			{% if page.email %} <li> <i class="fas fa-envelope"></i> Email: <a href="mailto:{{page.email}}">{{page.email}}</a> </li> {% endif %}
-			{% if page.web %} <li> <i class="fas fa-link"></i> Website: <a href="{{page.web}}">{{page.web}}</a> </li> {% endif %}
-			{% if page.twitter %} <li> <i class="fab fa-twitter"></i> Twitter: <a href="http://twitter.com/{{page.twitter}}">{{page.twitter}}</a> </li> {% endif %}
-			{% if page.linkedin %} <li> <i class="fab fa-linkedin"></i> LinkedIn: <a href="http://linkedin.com/in/{{page.linkedin}}">{{page.linkedin}}</a> </li> {% endif %}
-			{% if page.gscholar %} <li> <i class="fab fa-google"></i> GoogleScholar: <a href="https://scholar.google.co.uk/citations?user={{page.gscholar}}">{{page.title}}</a> </li> {% endif %}
-			{% if page.researchgate %} <li> <i class="fab fa-researchgate"></i> ResearchGate: <a href="https://www.researchgate.net/profile/{{page.researchgate}}">{{page.researchgate}}</a> </li> {% endif %}
-			{% if page.orcid %} <li> <i class="fas fa-leaf"></i> ORCID ID: <a href="http://orcid.org/{{page.orcid}}">{{page.orcid}}</a> </li> {% endif %}
-			{% if page.github %} <li> <i class="fab fa-github"></i> Github: <a href="http://github.com/{{page.github}}">{{page.github}}</a> </li> {% endif %}
-			
-			</ul>
-		</div>
+        <h1>{{page.title}} [{{ site.categories["Publications"] | size }}]</h1>
         <hr>
-        {{ content }}
-		
-		<hr>
-		
-		<h2> GAIG Publications </h2>
-		
-			
-        <!-- Find names of all group members -->
+							
+		<!-- Find names of all group members -->
 		{% assign group_members = '' | split: ' ' %}
 		{% for page in site.members %}
 			{% if page.job-type == "student" or page.job-type == "staff" %}  <!-- ignore externals -->
@@ -45,15 +26,14 @@ layout: default
 							
 		{% for counter in (start_year..current_year) reversed %}
 			{% assign sorted_posts = site.categories["Publications"] | where: "year",counter | sort: "venue" | reverse %}
-			<h2 id="{{ counter }}">{{ counter }}</h2> <!-- Display current year -->
+			<h2 id="{{ counter }}">{{ counter }} [{{ sorted_posts | size}}]</h2> <!-- Display current year -->
 			<ul style="list-style-type:none">
 				{% for post in sorted_posts %}
-					<li>						 
+					<li>
 						<!-- Compute author string, with highlighted authors from the group -->
 						{% assign author_list = post.author | split: " and " %}
 						{% assign authors_in_group = '' | split: ' ' %}
 						{% assign member_mapping = '' | split: ' ' %}
-						{% assign this_member_is_author = false %}
 							
 						<!-- Look for all authors in the split author list. Authors MUST be divided by ' and '. -->
 						{% for author in author_list %}
@@ -67,9 +47,6 @@ layout: default
 									{% assign authors_in_group = authors_in_group | push: stripped_author %}
 									{% assign member_mapping = member_mapping | push: member %}
 									{% assign finished = true %}
-									{% if member_name == page.title %}
-										{% assign this_member_is_author = true %}
-									{% endif %}
 									{% break %}
 								{% endif %}
 							{% endfor %}
@@ -98,19 +75,11 @@ layout: default
 									{% if found >= allowed_error %} <!-- This author is a member of the group -->
 										{% assign authors_in_group = authors_in_group | push: stripped_author %}
 										{% assign member_mapping = member_mapping | push: member %}
-										{% if member.title == page.title %}
-											{% assign this_member_is_author = true %}
-										{% endif %}
 										{% break %}
 									{% endif %}
 								{% endfor %}
 							{% endif %}
 						{% endfor %}
-						
-						<!-- If this member is not an author of this paper, continue -->
-						{% if this_member_is_author == false %}
-							{% continue %}
-						{% endif %}
 							
 						<!-- Highlight all authors that are members of the group. Link to their profile page in the website -->
 						{% assign author_list = post.author %}
@@ -123,7 +92,7 @@ layout: default
 							{% assign author_list = author_list | append: spl[1] %}
 						{% endfor %}
 						<!-- end compute author string -->
-						
+					
 						<!-- Venue tag -->
 						{% if post.venue %}
 							{% assign venue = post.venue | upcase  %}
@@ -171,8 +140,9 @@ layout: default
 								<span class="book">BOOK</span>
 							{% endif %}
 						{% endif %}
-					
-						{{ post.year }} 
+						
+						<!-- Pub cictation -->
+						{{ post.year }}
 						<a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br/>
 						
 							{{ author_list }},
@@ -185,101 +155,27 @@ layout: default
 							{% if post.month %}{{ post.month }}, {% endif %} {{ post.year }}.<br/>
 
 						{% include tag.html %}
-						<br/>
-						<br/>
+						<br/><br/>
 					</li>
 				{% endfor %}
 			</ul>
 		{% endfor %}
-		
     </div>
-    <!--<button class="anchor"><i class="fas fa-anchor"></i></button>-->
-    <div class="right">
+    <button class="anchor"><i class="fas fa-anchor"></i></button>
+	<div class="right">
         <div class="wrap">
-		
-            <div class="side ">
-				<div>
-					GAIG Members
-				</div>
-				<div id="content-side" class="content-ul" style="line-height:1.4; height: 400px;">
-					<div style="border-bottom: 3px solid #9FEE5A; padding-left: 5px">Staff</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'staff' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-					
-					<div style="border-bottom: 3px solid #30C99B; padding-left: 5px">Students</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'student' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-					
-					<div style="border-bottom: 3px solid #ed87ac; padding-left: 5px">Currently Visiting</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'visiting' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-					
-					<div style="border-bottom: 3px solid #b188eb; padding-left: 5px">External Partners</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'partners' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-					
-					<div style="border-bottom: 3px solid #ffae70; padding-left: 5px">Alumni</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'alumni' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-					
-					<div style="border-bottom: 3px solid #f47258; padding-left: 5px">Past Visitors and Staff</div>
-					<ul>
-					{% for page in site.members  %}
-						{% if page.job-type == 'past' %}
-							<li>
-								<a href="{{ page.permalink }}"> {{ page.title }} </a>
-							</li>
-						{% endif %}
-					{% endfor %}
-					</ul>
-				</div>
-			</div>
 
             <!-- Content -->
-            <div class="side ">
+            <div class="side content">
                 <div>
                     Jump to ...
                 </div>
                 <ul id="content-side" class="content-ul">
 					{% for counter in (start_year..current_year) reversed %}
+						{% assign sorted_posts = site.categories["Publications"] | where: "year",counter %}
                         <li>
                             <a data-scroll href="#{{ counter }}">
-                                {{ counter }}
+                                {{ counter }} [{{ sorted_posts | size }}]
                             </a>
                         </li>
                     {% endfor %}
