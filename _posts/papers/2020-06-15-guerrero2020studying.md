@@ -7,8 +7,8 @@ hidden: true
 
 pubid: guerrero2020studying
 type: inproceedings
-author: Studying General Agents in Video Games from the Perspective of Player Experience
-title: "Guerrero-Romero, Cristina and Kumari, Shringi and Perez-Liebana, Diego and Deterding, Sebastian"
+author: "Guerrero-Romero, Cristina and Kumari, Shringi and Perez-Liebana, Diego and Deterding, Sebastian"
+title: Studying General Agents in Video Games from the Perspective of Player Experience
 booktitle: "Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment"
 year: 2020
 volume: 16
