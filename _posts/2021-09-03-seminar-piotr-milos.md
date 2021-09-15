@@ -7,7 +7,7 @@ excerpt: "<ul>
 <li><b>Title:</b> Planning and learning</li>
 <li><b>Speaker:</b> Piotr Miłoś (Polish Academy of Sciences)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, September 15th, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/82269130613?pwd=eU4rdzJXYlQzblcxUVhOYWtHUW4yQT09'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>"
 mathjax: false
 smallimg: milos.png
@@ -20,7 +20,7 @@ smallimg: milos.png
 <li><b>Title:</b> Planning and learning</li>
 <li><b>Speaker:</b> Piotr Miłoś (Polish Academy of Sciences)</li> 
 <li><b>Time and date:</b> 1pm to 2pm, September 15th, 2021 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://us02web.zoom.us/j/82269130613?pwd=eU4rdzJXYlQzblcxUVhOYWtHUW4yQT09'>Virtual (Zoom)</a></li>
+<li><b>Room:</b> Virtual (Zoom)</li>
 </ul>
 
 The Game AI Research Group is glad to announce a (virtual) talk by Piotr Miłoś on Wednesday September 15th at 13:00.
