@@ -7,6 +7,7 @@ img: /img/volz.jpg
 job: modl.ai, Denmark (Ex-PostDoc)
 job-type: past
 year: 2019
+left: 2021
 email: vanessa@modl.ai
 ---
 

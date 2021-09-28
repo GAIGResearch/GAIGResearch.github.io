@@ -16,6 +16,7 @@ layout: default
 			<ul>
 			<li> {{page.job}} </li>
 			{% if page.year %} <li> Start year: {{page.year}} </li> {% endif %}
+			{% if page.left %} <li> End year: {{page.left}} </li> {% endif %}
 			{% if page.email %} <li> <i class="fas fa-envelope"></i> Email: <a href="mailto:{{page.email}}">{{page.email}}</a> </li> {% endif %}
 			{% if page.web %} <li> <i class="fas fa-link"></i> Website: <a href="{{page.web}}">{{page.web}}</a> </li> {% endif %}
 			{% if page.twitter %} <li> <i class="fab fa-twitter"></i> Twitter: <a href="http://twitter.com/{{page.twitter}}">{{page.twitter}}</a> </li> {% endif %}
