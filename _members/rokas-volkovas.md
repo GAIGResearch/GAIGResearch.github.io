@@ -4,9 +4,9 @@ type: member
 permalink: /members/Rokas-Volkovas
 title: Rokas Volkovas
 img: /img/volkovas.png
-job: IGGI PhD Student
+job: Ex IGGI PhD Student
 year: 2016
-job-type: student
+job-type: alumni
 email: r.volkovas@qmul.ac.uk
 ---
 

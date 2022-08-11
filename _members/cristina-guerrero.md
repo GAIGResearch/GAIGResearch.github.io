@@ -5,9 +5,9 @@ permalink: /members/Cristina-Guerrero-Romero
 title: Cristina Guerrero-Romero
 short-name: Cris Guerrero-Romero
 img: /img/cristina-guerrero-romero.jpg
-job: IGGI PhD Student
-year: 2016
-job-type: student
+job: IGGI Alumna
+year: 2022
+job-type: alumni
 email: c.guerreroromero@qmul.ac.uk
 web: http://kisenshi.github.io/
 twitter: kisenshi
