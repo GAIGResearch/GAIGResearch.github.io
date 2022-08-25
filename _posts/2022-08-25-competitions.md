@@ -3,7 +3,7 @@ layout: post
 title:  "Reflections: How to Organize Game AI Competitions?"
 categories: blog
 tags: [conferences, cog, competitions, game-ai, games, ai]
-excerpt: "At the most recent [IEEE Conference on Games 2022](http://ieee-cog.org/2022), [Raluca D. Gaina](/members/Raluca-Gaina) ran a discussion as part of the competitions results presentation session. Christoph Salge and Claus Aranha joined in to express opinions on what makes good competitions, and how to organize better ones in the future. This post summarises the points made, which can be found in the [full recording of the competitions session at IEEE CoG 2022](https://ieee-cog.org/2022/assets/video/competition.mp4) at about minute 1:08:00."
+excerpt: "At the most recent <a href"http://ieee-cog.org/2022">IEEE Conference on Games 2022</a>, <a href="/members/Raluca-Gaina">Raluca D. Gaina</a> ran a discussion as part of the competitions results presentation session. Christoph Salge and Claus Aranha joined in to express opinions on what makes good competitions, and how to organize better ones in the future. This post summarises the points made, which can be found in the <a href="https://ieee-cog.org/2022/assets/video/competition.mp4">full recording of the competitions session at IEEE CoG 2022</a> at about minute 1:08:00."
 mathjax: false
 img: /img/posts/competitions-blog-22.png
 ---
@@ -66,7 +66,7 @@ Claus: Connecting back to finding target audience, and to Q&A – competitions s
 
 Key questions: What is the audience for the competition? Who are you trying to reach? Bring in people from the communities you are trying to reach. Fun competition? - get people who have fun with the game. Industry competition? - then have people from industry to say what they want. Academic competition? - then have people from academia who are publishing. Each competition will likely lean towards one community or another, or be made up of an interesting combination. Have a vision of what you want your competition to be, plot it out on a graph if necessary, and go after that.
 
-<center><img src="/img/posts/audience-graph.png"/ width="200px"></center>
+<center><img src="/img/posts/audience-graph.png" width="200px"/></center>
 
 
 ## Some things in the competition can be optional
