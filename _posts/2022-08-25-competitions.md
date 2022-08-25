@@ -3,7 +3,7 @@ layout: post
 title:  "Reflections: How to Organize Game AI Competitions?"
 categories: blog
 tags: [conferences, cog, competitions, game-ai, games, ai]
-excerpt: "At the most recent <a href"http://ieee-cog.org/2022">IEEE Conference on Games 2022</a>, <a href="/members/Raluca-Gaina">Raluca D. Gaina</a> ran a discussion as part of the competitions results presentation session. Christoph Salge and Claus Aranha joined in to express opinions on what makes good competitions, and how to organize better ones in the future. This post summarises the points made, which can be found in the <a href="https://ieee-cog.org/2022/assets/video/competition.mp4">full recording of the competitions session at IEEE CoG 2022</a> at about minute 1:08:00."
+excerpt: "At the most recent <a href'http://ieee-cog.org/2022'>IEEE Conference on Games 2022</a>, <a href='/members/Raluca-Gaina'>Raluca D. Gaina</a> ran a discussion as part of the competitions results presentation session. Christoph Salge and Claus Aranha joined in to express opinions on what makes good competitions, and how to organize better ones in the future. This post summarises the points made, which can be found in the <a href='https://ieee-cog.org/2022/assets/video/competition.mp4'>full recording of the competitions session at IEEE CoG 2022</a> at about minute 1:08:00."
 mathjax: false
 img: /img/posts/competitions-blog-22.png
 ---
