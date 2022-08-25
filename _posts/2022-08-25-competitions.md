@@ -17,7 +17,7 @@ At the most recent [IEEE Conference on Games 2022](http://ieee-cog.org/2022), [R
 
 The discussion started from the premise that we're seeing more and more competitions being created, some more successful than others. This year there have been **18 competitions** running at IEEE CoG, a record number. But some have not managed to attract many (or any, in 3 cases) entries. This can be due to many factors: the still ongoing global pandemic, lack of advertising, lack of general interest, lack of challenge, or maybe too difficult a challenge. So, how can we run better competitions, and what makes a good competition?
 
-Several questions were proposed to support the discussion:\
+Several questions were proposed to support the discussion:
 - How to select challenges that will attract interest?
 - How to advertise competitions efficiently?
 - How to build communities?
