@@ -6,7 +6,7 @@ title: Rokas Volkovas
 img: /img/volkovas.png
 job: Ex IGGI PhD Student
 year: 2016
-job-type: alumni
+job-type: past
 email: r.volkovas@qmul.ac.uk
 ---
 
