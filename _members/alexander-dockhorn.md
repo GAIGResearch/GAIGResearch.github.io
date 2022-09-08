@@ -4,7 +4,7 @@ type: member
 permalink: /members/Alexander-Dockhorn
 title: Alexander Dockhorn
 img: /img/alexdockhorn.png
-job: Ex-PostDoc
+job: Juniorprofessor for Computer Science at the Gottfried Wilhelm Leibniz University Hannover
 job-type: past
 year: 2019
 left: 2021

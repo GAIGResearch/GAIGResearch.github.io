@@ -4,9 +4,11 @@ type: member
 permalink: /members/Mike-Cook
 title: Mike Cook
 img: /img/mike.jpg
-job: Postdoctoral Research Associate
+job: Senior Lecturer at Kings College London
 sortkey: e
-job-type: staff
+year: 2019
+left: 2022
+job-type: past
 email: mike@gamesbyangelina.org
 web: http://www.gamesbyangelina.org
 twitter: mtrc

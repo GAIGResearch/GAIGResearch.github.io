@@ -4,9 +4,9 @@ type: member
 permalink: /members/Alexander-Fletcher
 title: Alexander Fletcher
 img: /img/alexfletcher.jpg
-job: IGGI PhD Student
+job: Ex - IGGI PhD Student
 year: 2019
-job-type: student
+job-type: past
 email: alexander.fletcher@qmul.ac.uk
 web: http://alpacaaudio.com
 linkedin: alex-fletcher-64ab72176
