@@ -9,3 +9,5 @@ year: 2021
 job-type: student
 email: f.c.smithnicholls@qmul.ac.uk
 ---
+
+Research topic: Procedural Generation as Generative Archeology

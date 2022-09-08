@@ -9,3 +9,5 @@ year: 2020
 job-type: student
 email: b.d.a.khaleque@qmul.ac.uk
 ---
+
+Research topic: Automated Game Design (AGD) for Exploratory Games

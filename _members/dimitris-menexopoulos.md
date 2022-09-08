@@ -9,3 +9,5 @@ year: 2020
 job-type: student
 email: d.menexopoulos@qmul.ac.uk
 ---
+
+Research topic: Exploiting Game Graphics Rendering for Sound Generation

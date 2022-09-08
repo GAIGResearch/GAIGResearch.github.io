@@ -11,3 +11,5 @@ web: https://michelangeloconserva.github.io/
 twitter: Michelangelo755
 email: m.conserva@qmul.ac.uk
 ---
+
+Research topic: Principled Exploration Strategies for Reinforcement Learning

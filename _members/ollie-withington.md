@@ -9,3 +9,5 @@ year: 2020
 job-type: student
 email: o.withington@qmul.ac.uk
 ---
+
+Research topic: Novel Methods for Visualising Generative Spaces

@@ -9,3 +9,5 @@ year: 2021
 job-type: student
 email: l.stepanyan@qmul.ac.uk
 ---
+
+Research topic: Cooperative Multiplayer Game Design for Prejudice Reduction

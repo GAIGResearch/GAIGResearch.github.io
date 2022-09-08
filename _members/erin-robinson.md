@@ -9,3 +9,5 @@ year: 2021
 job-type: visiting
 email: e.robinson@qmul.ac.uk
 ---
+
+Research topic: Designing Playful Interactive Installations For The Purposes Of Casual Creativity in Adulthood

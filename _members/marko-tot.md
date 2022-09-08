@@ -9,3 +9,5 @@ year: 2020
 job-type: student
 email: m.tot@qmul.ac.uk
 ---
+
+Research topic: Local Forward Model Learning for Planning-Based Methods

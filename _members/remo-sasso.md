@@ -13,3 +13,5 @@ github: remosasso
 linkedin: remo-sasso-b9837a1ba
 email: r.sasso@qmul.ac.uk
 ---
+
+Research topic: Scaling up Posterior Sampling
