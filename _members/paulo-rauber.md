@@ -11,6 +11,8 @@ email: p.rauber@qmul.ac.uk
 web: http://paulorauber.com/
 ---
 
-Paulo Rauber is a lecturer in artificial intelligence at Queen Mary University of London. He holds a joint PhD degree in computer science from the University of Campinas and the University of Groningen, which he obtained for his work on the intersection between machine learning, image analysis, and information visualization. Before becoming a lecturer, he was a postdoctoral researcher in reinforcement learning at the Swiss AI Lab under the supervision of Jürgen Schmidhuber.
+I am a lecturer in Artificial Intelligence at Queen Mary University of London. Before becoming a lecturer, I was a postdoctoral researcher in the Swiss AI lab working on reinforcement learning under the supervision of Jürgen Schmidhuber.
 
-Paulo is particularly interested in studying four major challenges that must be addressed efficiently by reinforcement learning agents: building models that enable reliable planning; exploring environments systematically; learning state representations; and generalizing desirable behavior.
+I believe that intelligence should be defined as a measure of the ability of an agent to achieve goals in a wide range of environments, which makes reinforcement learning an excellent framework to study many challenges that intelligent agents are bound to face. 
+
+My current research is focused on developing principled but scalable Bayesian reinforcement learning methods that address the most significant of these challenges: exploration, planning, and generalization. 
