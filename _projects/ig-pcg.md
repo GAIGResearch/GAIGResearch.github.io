@@ -11,6 +11,6 @@ description: Reading research papers related to Procedural Content Generation to
 
 # Papers discussed backlog
 
-16-Sep: Guzdial, M., Liao, N., Chen, J., Chen, S.Y., Shah, S., Shah, V., Reno, J., Smith, G. and Riedl, M.O., "Friend, collaborator, student, manager: How design of an ai-driven game level editor affects creators", 2019
-05-Aug: Gillian Smith, Jim Whitehead, "Analyzing the expressive range of a level generator", 2010
-22-Jul: Jean-Baptiste Hervé, Christoph Salge, "Automated Isovist Computation for Minecraft", 2022
+- 16-Sep: Guzdial, M., Liao, N., Chen, J., Chen, S.Y., Shah, S., Shah, V., Reno, J., Smith, G. and Riedl, M.O., "Friend, collaborator, student, manager: How design of an ai-driven game level editor affects creators", 2019
+- 05-Aug: Gillian Smith, Jim Whitehead, "Analyzing the expressive range of a level generator", 2010
+- 22-Jul: Jean-Baptiste Hervé, Christoph Salge, "Automated Isovist Computation for Minecraft", 2022
