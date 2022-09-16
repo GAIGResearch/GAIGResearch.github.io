@@ -2,7 +2,7 @@
 layout: member
 type: member
 permalink: /members/Fandi-Meng
-title: Fandi-Meng
+title: Fandi Meng
 img: /img/no-pic.png
 job: PhD Student
 year: 2020
