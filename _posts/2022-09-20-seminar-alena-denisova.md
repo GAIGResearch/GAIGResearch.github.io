@@ -2,7 +2,7 @@
 layout: post
 title:  "[Seminar] 'Understanding and measuring perceived challenge in video games' by Alena Denisova"
 categories: Seminar
-tags: [seminar, artificial-intelligence]
+tags: [seminar]
 excerpt: "<ul>
 <li><b>Title:</b> Understanding and measuring perceived challenge in video games</li>
 <li><b>Speaker:</b> Alena Denisova (University of York)</li> 
