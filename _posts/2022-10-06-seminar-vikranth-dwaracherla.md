@@ -6,8 +6,8 @@ tags: [seminar]
 excerpt: "<ul>
 <li><b>Title:</b> Epistemic Neural Networks</li>
 <li><b>Speaker:</b> Vikranth Dwaracherla (DeepMind Mountain View)</li> 
-<li><b>Time and date:</b> 4pm to 5pm, October 19th, 2022 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/86500925143?pwd=a3dTRXN0UEprYVdLWUoxUjNFektTUT09'>Virtual (Zoom)</a></li>
+<li><b>Time and date:</b> 4pm to 5pm, November 2nd, 2022 (Wednesday)</li>
+<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/85984736226?pwd=MWZKWjRaZjZDWE1CT2dncjVhZXVVZz09'>Virtual (Zoom)</a></li>
 </ul>"
 mathjax: false
 ---
@@ -18,11 +18,11 @@ mathjax: false
 <ul>
 <li><b>Title:</b> Epistemic Neural Networks</li>
 <li><b>Speaker:</b> Vikranth Dwaracherla (DeepMind Mountain View)</li> 
-<li><b>Time and date:</b> 4pm to 5pm, October 19th, 2022 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/86500925143?pwd=a3dTRXN0UEprYVdLWUoxUjNFektTUT09'>Virtual (Zoom)</a></li>
+<li><b>Time and date:</b> 4pm to 5pm, November 2nd, 2022 (Wednesday)</li>
+<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/85984736226?pwd=MWZKWjRaZjZDWE1CT2dncjVhZXVVZz09'>Virtual (Zoom)</a></li>
 </ul>
 
-The Game AI Research Group is glad to announce a (virtual) talk by Vikranth Dwaracherla on October 19th, 2022, at 16:00.
+The Game AI Research Group is glad to announce a (virtual) talk by Vikranth Dwaracherla on November 2nd, 2022, at 16:00.
 
 ## Abstract
 
