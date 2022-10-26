@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Seminar] 'Epistemic Neural Networks' by Vikranth Dwaracherla"
+title:  "[Seminar] 'Data Science with Ludii' by Matthew Stephenson"
 categories: Seminar
 tags: [seminar]
 excerpt: "<ul>
-<li><b>Title:</b> Epistemic Neural Networks</li>
-<li><b>Speaker:</b> Vikranth Dwaracherla (DeepMind Mountain View)</li> 
-<li><b>Time and date:</b> 4pm to 5pm, November 2nd, 2022 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/85984736226?pwd=MWZKWjRaZjZDWE1CT2dncjVhZXVVZz09'>Virtual (Zoom)</a></li>
+<li><b>Title:</b> Data Science with Ludii</li>
+<li><b>Speaker:</b> Matthew Stephenson (Maastricht University)</li> 
+<li><b>Time and date:</b> 1pm to 2pm, November 9th, 2022 (Wednesday)</li>
+<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/81905886624?pwd=SGY2d29QY3FkbUgybVJMNXZEQ0J0Zz09'>Virtual (Zoom)</a></li>
 </ul>"
 mathjax: false
 ---
@@ -16,19 +16,19 @@ mathjax: false
 {:toc}
 
 <ul>
-<li><b>Title:</b> Epistemic Neural Networks</li>
-<li><b>Speaker:</b> Vikranth Dwaracherla (DeepMind Mountain View)</li> 
-<li><b>Time and date:</b> 4pm to 5pm, November 2nd, 2022 (Wednesday)</li>
-<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/85984736226?pwd=MWZKWjRaZjZDWE1CT2dncjVhZXVVZz09'>Virtual (Zoom)</a></li>
+<li><b>Title:</b> Data Science with Ludii: Creation, Analysis and Applications of Board Game Datasets</li>
+<li><b>Speaker:</b> Matthew Stephenson (Maastricht University)</li> 
+<li><b>Time and date:</b> 1pm to 2pm, November 9th, 2022 (Wednesday)</li>
+<li><b>Room:</b> <a href='https://qmul-ac-uk.zoom.us/j/81905886624?pwd=SGY2d29QY3FkbUgybVJMNXZEQ0J0Zz09'>Virtual (Zoom)</a></li>
 </ul>
 
-The Game AI Research Group is glad to announce a (virtual) talk by Vikranth Dwaracherla on November 2nd, 2022, at 16:00.
+The Game AI Research Group is glad to announce a (virtual) talk by Matthew Stephenson on Wednesday November 9th 2022 at 13:00.
 
 ## Abstract
 
-Intelligence relies on an agent's knowledge of what it does not know. This capability relies on the quality of joint predictions of labels across multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.  By assessing the quality of joint predictions it is possible to determine whether the neural network effectively distinguishes between epistemic uncertainty (that is due to lack of knowledge) and aleatoric uncertainty (that is due to chance). We introduce the epistemic neural network (ENN) as an interface for models that represent uncertainty as required to generate useful joint predictions. While prior approaches to uncertainty modeling such as Bayesian neural networks can be expressed as ENNs, this new interface facilitates comparison of joint predictions and the design of novel architectures and algorithms. In particular, we introduce the epinet: an architecture that can supplement any conventional neural network, including large pretrained models, and can be trained with modest incremental computation to represent uncertainty. With an epinet, conventional neural networks outperform very large ensembles, consisting of hundreds or more particles, with orders of magnitude less computation. We demonstrate this efficacy across synthetic data, ImageNet, and some reinforcement learning tasks. As part of this effort we open-source experiment code.
+Over the past four years, the members of the Digital Ludeme Project have worked to document and model over 1000 board games within the Ludii general game system. This has resulted in several datasets that provide extensive information about each game, including its gameplay properties, its historical and cultural significance, and the performance of various general game playing agents and heuristics. This talk will present and discuss these publicly available board game datasets, including the information they contain, how they have been analysed so far, and possible future applications from a data science perspective.
 
 ## Biography
 
-Vikranth is a research scientist at DeepMind in Mountain View. He is interested in developing data and computationally efficient agents. Before DeepMind, Vikranth completed his PhD at Stanford University with Prof. Benjamin Van Roy and Bachelor's at IIT Bombay with Prof. Vivek Borkar.
+Matthew Stephenson is currently working as a postdoctoral researcher for the Digital Ludeme Project at Maastricht University in the Netherlands. This project aims to improve our understanding of traditional board games using modern AI techniques, and can be summarised as a computational study of different games throughout recorded history. Matthew has also conducted research into many other fields of AI, including topics such as procedural content generation, physics-based reasoning, general game playing, novelty analysis, portfolio agents, data mining and computational complexity.
 
