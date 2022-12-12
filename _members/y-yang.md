@@ -2,7 +2,7 @@
 layout: member
 permalink: /members/y-yang
 title: Yongxin Yang
-img: /img/yyang.png
+img: /img/yyang.jpg
 job: Lecturer
 job-type: staff 
 email: yongxin.yang@qmul.ac.uk
