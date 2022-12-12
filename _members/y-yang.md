@@ -2,6 +2,7 @@
 layout: member
 permalink: /members/y-yang
 title: Yongxin Yang
+sortkey: e
 img: /img/yyang.jpg
 job: Lecturer
 job-type: staff 
