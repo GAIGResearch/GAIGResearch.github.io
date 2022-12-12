@@ -1,10 +1,9 @@
 ---
 layout: member
-type: member
 permalink: /members/y-yang
-title: Dr.
+title: Dr. Yongxin Yang
+img: /img/yyang.png
 job: Lecturer in Financial Technology
-year: 2022
 job-type: staff 
 email: yongxin.yang@qmul.ac.uk
 web: https://yang.ac
