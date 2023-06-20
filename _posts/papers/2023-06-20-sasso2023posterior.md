@@ -12,6 +12,7 @@ title: "Posterior Sampling for Deep Reinforcement Learning"
 booktitle: "International Conference on Machine Learning"
 year: 2023
 repo: "https://github.com/remosasso/PSDRL"
+arxiv: "https://arxiv.org/abs/2305.00477"
 
 ---
 
