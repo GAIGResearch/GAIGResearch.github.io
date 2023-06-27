@@ -4,9 +4,9 @@ type: member
 permalink: /members/Alvaro-Ovalle
 title: Alvaro Ovalle
 img: /img/alvaro-ovalle.jpg
-job: PhD Student
-year: 2018
-job-type: student
+job: GAIG Alumnus
+year: 2023
+job-type: alumni
 email: a.ovalle@qmul.ac.uk
 web: http://aovalle.github.io
 ---

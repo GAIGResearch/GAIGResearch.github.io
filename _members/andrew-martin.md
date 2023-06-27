@@ -4,9 +4,9 @@ type: member
 permalink: /members/Andrew-Martin
 title: Andrew Martin
 img: /img/andrew_martin.jpg
-job: IGGI PhD Student
+job: Ex IGGI PhD Student
 year: 2016
-job-type: student
+job-type: past
 email: andrew.m@qmul.ac.uk
 ---
 

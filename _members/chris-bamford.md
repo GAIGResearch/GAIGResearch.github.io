@@ -4,9 +4,9 @@ type: member
 permalink: /members/Chris-Bamford
 title: Chris Bamford
 img: /img/bam4d.png
-job: PhD Student
-year: 2018
-job-type: student
+job: GAIG Alumnus
+year: 2023
+job-type: alumni
 email: c.d.j.bamford@qmul.ac.uk
 linkedin: christopher-bamford-30a90912
 twitter: bam4d

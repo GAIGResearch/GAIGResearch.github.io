@@ -5,8 +5,8 @@ permalink: /members/John-Woodward
 title: John R. Woodward
 img: /img/woodward.jpg
 job: Senior Lecturer
-sortkey: c
-job-type: staff
+left: 2022
+job-type: past
 email: j.woodward@qmul.ac.uk
 web: http://www.cs.stir.ac.uk/~jrw/
 ---
