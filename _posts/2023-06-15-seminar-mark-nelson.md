@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Seminar] 'Analyzing State Spaces of Atari Games"
+title:  "[Seminar] 'Analyzing State Spaces of Atari Games' by Mark Nelson"
 categories: Seminar
 tags: [seminar]
 excerpt: "<ul>
