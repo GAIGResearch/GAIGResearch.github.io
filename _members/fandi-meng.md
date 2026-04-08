@@ -4,9 +4,10 @@ type: member
 permalink: /members/Fandi-Meng
 title: Fandi Meng
 img: /img/no-pic.png
-job: PhD Student
-year: 2020
-job-type: student
+job: Alumnus
+year: 2025
+year-joined: 2020
+job-type: alumni
 email: f.meng@qmul.ac.uk
 ---
 

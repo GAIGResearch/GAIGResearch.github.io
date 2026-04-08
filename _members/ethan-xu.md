@@ -4,9 +4,10 @@ type: member
 permalink: /members/Ethan-Xu
 title: Ethan Xu
 img: /img/ethan.jpg
-job: PhD Student
-year: 2020
-job-type: student
+job: Alumnus
+year: 2025
+year-joined: 2020
+job-type: alumni
 email: linjie.xu@qmul.ac.uk
 web: https://egg-west.github.io/
 ---

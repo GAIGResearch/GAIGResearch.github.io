@@ -4,9 +4,9 @@ type: member
 permalink: /members/Michael-Aichmueller
 title: Michael Aichmüller
 img: /img/Michael-Aichmueller.jpg
-job: IGGI PhD Student
+job: Ex - IGGI PhD Student
 year: 2021
-job-type: student
+job-type: past
 email: m.f.aichmueller@qmul.ac.uk
 ---
 

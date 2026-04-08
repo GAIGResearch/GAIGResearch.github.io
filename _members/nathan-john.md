@@ -4,9 +4,10 @@ type: member
 permalink: /members/Nathan-John
 title: Nathan John
 img: /img/john.png
-job: IGGI PhD Student
-year: 2018
-job-type: student
+job: IGGI Alumnus
+year: 2025
+year-joined: 2018
+job-type: alumni
 email: n.m.john-mcdougall@qmul.ac.uk
 ---
 

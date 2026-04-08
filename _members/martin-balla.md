@@ -4,9 +4,10 @@ type: member
 permalink: /members/Martin-Balla
 title: Martin Balla
 img: /img/balla.png
-job: IGGI PhD Student
-year: 2018
-job-type: student
+job: IGGI Alumnus
+year: 2024
+job-type: alumni
+year-joined: 2018
 email: m.balla@qmul.ac.uk
 ---
 

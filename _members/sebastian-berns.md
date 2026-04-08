@@ -4,9 +4,10 @@ type: member
 permalink: /members/Sebastian-Berns
 title: Sebastian Berns
 img: /img/sebastian.jpg
-job: IGGI PhD Student
-year: 2019
-job-type: student
+job: IGGI Alumnus
+year: 2024
+year-joined: 2019
+job-type: alumni
 email: s.berns@qmul.ac.uk
 web: http://sebastianberns.com
 twitter: sebastianberns

@@ -4,9 +4,10 @@ type: member
 permalink: /members/Nicholas-Ballou
 title: Nicholas Ballou
 img: /img/nickballou.jpg
-job: IGGI PhD Student
-year: 2019
-job-type: student
+job: IGGI Alumnus
+year: 2023
+year-joined: 2019
+job-type: alumni
 email:  n.b.ballou@qmul.ac.uk
 twitter: nbballou
 web: http://nickballou.com

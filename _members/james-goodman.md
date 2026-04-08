@@ -4,9 +4,10 @@ type: member
 permalink: /members/James-Goodman
 title: James Goodman
 img: /img/james.jpg
-job: IGGI PhD Student
-year: 2019
-job-type: student
+job: IGGI Alumnus
+year: 2025
+year-joined: 2019
+job-type: alumni
 email: james.goodman@qmul.ac.uk
 linkedin: james-goodman-b388791
 github: hopshackle
