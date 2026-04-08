@@ -4,9 +4,9 @@ type: member
 permalink: /members/Yu-Jhen-Hsu
 title: Yu-Jhen Hsu
 img: /img/no-pic.png
-job: IGGI PhD Student
-job-type: student
+job: Ex - IGGI PhD Student
 year: 2022
+job-type: past
 email: rovenr32@gmail.com
 ---
 
