@@ -4,7 +4,7 @@ type: member
 permalink: /members/Fandi-Meng
 title: Fandi Meng
 img: /img/no-pic.png
-job: Alumnus
+job: Alumna
 year: 2025
 year-joined: 2020
 job-type: alumni
